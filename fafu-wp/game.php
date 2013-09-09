@@ -12,7 +12,7 @@ Single Post Template: game
 		<div class="game-page-info clearfix">
 			<div class="game-page-home-team game-page-team left">
 				<div class="game-page-team-logo">
-					<i class="<? echo get_post_meta($post->ID, 'home-team', true); ?>-big-icon team-small-icon icon"></i>
+					<i class="<? echo get_post_meta($post->ID, 'home-team', true); ?>-big-icon team-big-icon icon"></i>
 					<div class="game-page-team-logo-bg"></div>
 				</div>
 				<h2 class="game-page-team-name"><? echo get_post_meta($post->ID, 'home-team-name', true); ?></h2>
@@ -20,7 +20,7 @@ Single Post Template: game
 			</div>
 			<div class="game-page-visited-team game-page-team right">
 				<div class="game-page-team-logo">
-					<i class="<? echo get_post_meta($post->ID, 'visited-team', true); ?>-big-icon team-small-icon icon"></i>
+					<i class="<? echo get_post_meta($post->ID, 'visited-team', true); ?>-big-icon team-big-icon icon"></i>
 					<div class="game-page-team-logo-bg"></div>
 				</div>
 				<h2 class="game-page-team-name"><? echo get_post_meta($post->ID, 'visited-team-name', true); ?></h2>

@@ -115,6 +115,57 @@
 .tauris-small-icon{
 	background-position: -156px 0;
 }
+.team-big-icon{
+	width: 180px;
+	height: 180px;
+	background-image: url(../images/big-team.jpg);
+	background-repeat: no-repeat;	
+}
+.wolves-big-icon{
+	background-position: -1438px 0;
+}
+.mustangs-big-icon{
+	background-position: -1798px 0;
+}
+.dolphins-big-icon{
+	background-position: -1618px 0;
+}
+.lions-big-icon{
+	background-position: -2158px 0;
+}
+.loggers-big-icon{
+	background-position: -2338px 0;
+}
+.monarchs-big-icon{
+	background-position: -1978px 0;
+}
+.atlantes-big-icon:hover{
+	background-position: -1078px 0;
+}
+.bandits-big-icon{
+	background-position: -1258px 0;
+}
+.knights-big-icon{
+	background-position: 0 0;
+}
+.pirates-big-icon{
+	background-position: -538px 0;
+}
+.rockets-big-icon{
+	background-position: -2518px 0;
+}
+.scythians-big-icon{
+	background-position: -898px 0;
+}
+.slavs-big-icon{
+	background-position: -180px 0;
+}
+.tanks-big-icon{
+	background-position: -360px 0;
+}
+.tauris-big-icon{
+	background-position: -718px 0;
+}
 .team-square-icon{
 	width: 60px;
 	height: 29px;
