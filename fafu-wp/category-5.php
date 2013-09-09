@@ -6,38 +6,10 @@
 			<h2 class="title"><?php _e('Доска почёта', 'kubrick'); ?></h2>
 			<ul class="main-players-list jbox">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 4, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 4, 'category' => "5" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>		
-				<li class="main-player dib">
-					<div class="main-player-window">
-						<div class="main-player-photo">
-							<?php $postimageurl = get_post_meta($post->ID, 'photo', true); ?>
-							<?php if ($postimageurl) {?>
-							<img src="<? echo get_post_meta($post->ID, 'photo', true); ?>" alt="<?php the_title(); ?>">
-							<?php }else {?>
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/nophoto.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
-							<?php }?>
-							<div class="main-player-info">
-								<? echo get_post_meta($post->ID, 'pos', true); ?> <strong>#<? echo get_post_meta($post->ID, 'number', true); ?></strong>
-							</div>									
-						</div>
-						<div class="main-player-name tac">
-							<strong>
-							<?php 
-								$name = get_the_title($post->ID);
-							  	$name = mb_substr($name, 0, strpos($name, ' ' ));
-							  	echo $name;					
-							?>
-							</strong>
-							<?php 
-								$surname = get_the_title($post->ID);
-							  	$surname = mb_substr($surname, 0, stristr($surname, ' ' ));
-							  	echo $surname;					
-							?>
-						</div>
-					</div>
-				</li>
+				<?php include (TEMPLATEPATH . '/main-player.php'); ?>
 				<?php endforeach; ?>
 			</ul>
 		</div>
@@ -56,7 +28,10 @@
 					<th class="roster-cell roster-p-exp"><?php _e('Опыт', 'kubrick'); ?></th>
 					<th class="roster-cell roster-p-team"><?php _e('Команда', 'kubrick'); ?></th>
 				</tr>
-				<?php while (have_posts()) : the_post(); ?>
+				<?php
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "5" );
+				$lastposts = get_posts( $args );
+				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<tr class="roster-row roster-light-row">
 					<td class="roster-cell roster-p-number"><? echo get_post_meta($post->ID, 'number', true); ?></td>
 					<td class="roster-cell roster-p-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
@@ -72,7 +47,7 @@
 						</div>
 					</td>
 				</tr>
-				<?php endwhile; ?>
+				<?php endforeach; ?>
 			</table>
 		</div>
 		<!--end index-->

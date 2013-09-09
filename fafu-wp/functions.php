@@ -72,6 +72,11 @@ function the_excerpt_max_charlength($charlength) {
           echo $excerpt;
      }
 }
+function new_excerpt_length($length) {
+    return 800;
+    }
+add_filter('excerpt_length', 'new_excerpt_length');
+
 // Конец вывода цитаты с разным количеством символов в любом месте шаблона
 
 /* Очищаем wp_head(); */

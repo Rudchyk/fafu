@@ -8,15 +8,9 @@
 			<?php while (have_posts()) : the_post(); ?> 
 			<!--article-->
 			<article class="single block">
-				<h2 class="title cat-title"><?php single_cat_title(''); ?></h2>
+				<h2 class="title cat-title"><?php the_category(', ') ?></h2>
 				<h1 class="single-title break"><?php the_title(); ?></h1>
-				<?php
-				$category = get_the_category();
-				$catcat = $category[0]->cat_ID;
-				if ($catcat==3) {}
-				else {echo '<div class="data">'.the_time('d F Y').'</div>';}
-				?>
-				<!-- <div class="data"><?php the_time('d F Y') ?></div> -->
+				<div class="data"><?php the_time('d F Y') ?></div>
 				<div class="text single-text page-text break">
 					<?php the_content(''); ?>
 				</div>

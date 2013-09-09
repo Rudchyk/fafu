@@ -183,10 +183,22 @@
 	height: 18px;
 }
 .higher-very-small-icon{
-	background-position: -2px -119px;
+	background-position: -0px -205px;
 }
 .first-very-small-icon{
-	background-position: -22px -119px;
+	background-position: -20px -205px;
+}
+.cup-very-small-icon{
+	background-position: -40px -205px;
+}
+.flag-very-small-icon{
+	background-position: -60px -205px;
+}
+.arena-very-small-icon{
+	background-position: -80px -205px;
+}
+.friendly-very-small-icon{
+	background-position: -100px -205px;
 }
 .slider-icon{
 	width: 15px;

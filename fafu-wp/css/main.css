@@ -116,6 +116,13 @@ html>body .main{
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #fff;
 }
+.title a{
+	color: #fff;
+	text-decoration: none;
+}
+.title a:hover{
+	text-decoration: underline;
+}
 .main_title{
 	color: #181818;
 	text-transform: uppercase;

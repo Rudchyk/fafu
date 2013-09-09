@@ -55,6 +55,29 @@ $(document).ready(function(){
 
 	clock(); //вызываем функцию времени
     window.setInterval(clock, 1000); //вызываем функцию clock() каждую секунду	
+
+    
+    $(".future-game-info .icon").each(function(i){
+		if ($(this).hasClass('higher-very-small-icon')) {
+	    	$(this).parent().find('.fixed-tooltip').text('Высшая лига');
+	    }
+	    if($(this).hasClass('first-very-small-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Первая лига');
+	    }
+	    if($(this).hasClass('cup-very-small-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Кубок Украины');
+	    }
+	    if($(this).hasClass('flag-very-small-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Флаг-футбол');
+	    }
+	    if($(this).hasClass('arena-very-small-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Донбасс-Аренабол зимний чемпионат');
+	    }
+	    if($(this).hasClass('friendly-very-small-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Товарищеская игра');
+	    }    	
+    })  
+
 }); // Ready
 
 $(window).load(function(){

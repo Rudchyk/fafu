@@ -16,15 +16,7 @@
 						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "2" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
-						<li class="main-post">
-							<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
-								<div class="main-posts-img left"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>"></div>
-								<div class="main-posts-content">
-									<h2 class="main-posts-title"><?php the_title(); ?></h2>
-									<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
-								</div>
-							</a>
-						</li>
+						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
 						<?php endforeach; ?>
 					</ul>
 					<p class="tar main-posts-more-b"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>
@@ -35,15 +27,7 @@
 						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "2" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
-						<li class="main-post">
-							<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
-								<div class="main-posts-img left"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>"></div>
-								<div class="main-posts-content">
-									<h2 class="main-posts-title"><?php the_title(); ?></h2>
-									<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
-								</div>
-							</a>
-						</li>
+						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
 						<?php endforeach; ?>
 					</ul>
 					<p class="tar main-posts-more-b"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>							
@@ -60,15 +44,7 @@
 						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "2" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
-						<li class="main-post">
-							<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
-								<div class="main-posts-img left"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>"></div>
-								<div class="main-posts-content">
-									<h2 class="main-posts-title"><?php the_title(); ?></h2>
-									<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
-								</div>
-							</a>
-						</li>
+						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
 						<?php endforeach; ?>
 					</ul>
 					<p class="tar main-posts-more-b"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>
@@ -79,15 +55,7 @@
 						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "2" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
-						<li class="main-post">
-							<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
-								<div class="main-posts-img left"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>"></div>
-								<div class="main-posts-content">
-									<h2 class="main-posts-title"><?php the_title(); ?></h2>
-									<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
-								</div>
-							</a>
-						</li>
+						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
 						<?php endforeach; ?>
 					</ul>
 					<p class="tar main-posts-more-b"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>							

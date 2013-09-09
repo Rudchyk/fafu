@@ -16,7 +16,7 @@
 .team-item a{
     display: block;
 }
-.team-item:hover{
+/*.team-item:hover{
     border-bottom-color: #fff;
 }
 .team-item:hover:before{
@@ -27,7 +27,7 @@
     left: 50%;
     margin-left: -3px;
     position: absolute;
-}
+}*/
 .hallo{
     font-size: 1.16666666666667em;
     color: #fff;
@@ -371,6 +371,7 @@
 	z-index:1;
 	position:absolute;
 	overflow:hidden;
+    background: #fff;
 }
 .main-carousel .sliderkit-panel img{
 	width: 675px;
@@ -491,7 +492,7 @@
     border-top: none;
 }
 .news-carousel{
-    padding: 10px 0 35px;
+    padding: 20px 0 35px;
     position: relative;
 }
 .news-carousel .sliderkit-btn{
@@ -532,7 +533,7 @@
 }
 .news-carousel-item{
     text-align: left;
-    height: 215px;
+    height: 205px;
 }
 .news-carousel-title{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -561,7 +562,7 @@
     line-height: 1.1;
 }
 .main-list-news{
-    padding: 10px 0 0;
+    padding: 20px 0 0;
 }
 .main-item-news{
     padding-bottom: 5px;
@@ -648,6 +649,9 @@
     left: 0;
     position: absolute;
 }
+.main-posts-list{
+    padding-top: 5px;
+}
 .main-post{
     text-align: left;
 }
@@ -669,6 +673,14 @@
     border: 1px solid #fff;
     height: 75px;
     overflow: hidden;
+}
+.main-posts-img-window{
+    width: 130px;
+    height: 300px;
+    top: -112px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
 }
 .main-posts-img img{
     width: 130px;
@@ -712,6 +724,9 @@
     font-family: 'Open Sans Condensed', sans-serif;
     z-index: 500;   
 }
+.main-player-window a{
+    text-decoration: none;
+}
 .main-player:hover .main-player-name{
     display: block;
 }
@@ -742,6 +757,7 @@
     padding-top: 5px;
 }
 .main-player-name strong{
+    display: block;
 }
 .no-players-list{
     padding: 15px 0 10px;
@@ -755,6 +771,7 @@
 }
 .main-player-city{
     font-weight: bold;
+    color: #3e3e3e;
 }
 .main-player-status{
     padding-bottom: 5px;
@@ -915,13 +932,13 @@
 .empty-post{}
 /*single post*/
 .single{
-    padding: 10px 15px;
+    padding: 10px 15px 30px;
 }
 .cat-title{
     margin-left: -15px;
 }
 .single-title{
-    padding: 15px 0;
+    padding: 15px 0 20px;
     line-height: 1.2;
     color: #000;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -1005,7 +1022,7 @@ td.roster-p-name{
     text-decoration: underline;
 }
 .page-player-text{
-    padding: 15px 20px 10px;
+    padding: 15px 20px 30px;
 }
 .page-player .title{
     margin-top: 10px;
@@ -1065,7 +1082,6 @@ td.roster-p-name{
 .player-page-number{
     font-family: 'collegiateheavyoutlineregular';
     font-size: 2.5em;
-    border-right: 1px solid #cc1119;
     margin-right: 5px;
     padding-right: 3px;    
 }
@@ -1081,6 +1097,78 @@ td.roster-p-name{
 }
 .player-page-item{
     line-height: 1.5;
+}
+.page-game-text{
+    padding: 15px 20px 30px;
+}
+.page-game .title{
+    margin-top: 10px;
+}
+.page-game{
+    margin-right: 10px;
+}
+.game-page-info{
+    position: relative;
+    padding: 60px 0 20px;
+    background: url(../images/game-b-bg.png);
+    border-bottom: 5px solid #0393a8;
+}
+.game-page-team{
+    width: 450px;
+    text-align: center;
+}
+.game-page-team-logo{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;    
+}
+.game-page-team-logo-bg{
+    position: absolute;
+    background: url(../images/game-bg.png);
+    width: 180px;
+    height: 180px;
+    top: 0;
+    left: 0;
+}
+.game-page-team-name{
+    font-size: 3em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+    /*color: #0D262D;*/
+    color: #fff;
+}
+.game-page-team-sity{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    line-height: 1;
+    /*color: #0D262D;*/
+    color: #fff;
+}
+.game-page-info-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+    width: 290px;
+    text-align: center;
+}
+.game-page-data{
+    font-size: 1em;
+    color: #fff;
+}
+.game-page-championship{
+    height: 60px;
+    margin-top: 10px;
+}
+.game-page-score{
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 5em;
+    color: #fff;
 }
 /*   END CONTENT     
 ------------------------------*/
@@ -1147,7 +1235,7 @@ td.roster-p-name{
 }
 .aside-menu{}
 .aside-menu-list{
-    padding: 0 20px 10px;
+    padding: 0 10px 10px;
 }
 .aside-menu-item{
     padding: 5px 0;
@@ -1368,7 +1456,8 @@ td.roster-p-name{
     cursor: pointer;
 }
 .jvectormap-zoomin,
-.jvectormap-zoomout{
+.jvectormap-zoomout,
+.sliderkit-btn-disable{
     display: none;
 }
 /*   END OTHER STYLES     

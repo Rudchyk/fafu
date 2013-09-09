@@ -8,9 +8,10 @@ friends.php - блок "Наши друзья"
 main-video.php - Блок "Свежее видео"
 main-players.php - Блок "Члены сборной Украины"
 nav-widget.php - Виджет рубрики
-category-1.php - Категория "Ростер"
-category-2.php - Категория "Тренеры"
-category-3.php - Категория "Видео"
+category-5.php - Категория "Ростер"
+category-6.php - Категория "Тренеры"
+category-7.php - Категория "Видео"
+main-player.php - Шаблон игрока
 
 font-family: 'Open Sans Condensed', sans-serif;
 
@@ -89,9 +90,13 @@ visited-team-city - Город гостевой команды
 championship - Чемпионат
 	higher - Высшая лига
 	first - Первая лига
+	cup - Кубок Украины
+	flag - Флаг-футбол
+	arena - Донбасс-Аренабол зимний чемпионат
+	friendly - Товарищеская игра
 
 game-day - День матча
-game-day - Счет матча
+game-score - Счет матча
 
 Персона:
 photo - Фото 122*159
@@ -126,3 +131,11 @@ status - Статус
 
 Видео:
 video-img - Картинка на видео
+Видео должно быть размеров width="633" height="356"
+
+Главные новости:
+slide - Картинка на слайдер 675*318
+
+Новость:
+Превью не меньше 190px.
+h-142

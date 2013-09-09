@@ -28,7 +28,14 @@
 			$lastposts = get_posts( $args );
 			foreach($lastposts as $post) : setup_postdata($post); ?>			
 			<div class="sliderkit-panel">
-				<a href="<?php the_permalink(); ?>"><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>"></a>
+				<a href="<?php the_permalink(); ?>">
+					<?php $postimageurl = get_post_meta($post->ID, 'slide', true); ?>
+					<?php if ($postimageurl) {?>
+					<img src="<? echo get_post_meta($post->ID, 'slide', true); ?>" alt="<?php the_title(); ?>">
+					<?php }else {?>
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noslide.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
+					<?php }?>
+				</a>
 				<div class="main-carousel-content">
 					<h2 class="main-carousel-title"><a href="<?php the_permalink(); ?>" class="main-carousel-title-link"><?php the_title(); ?></a></h2>
 					<div class="main-carousel-text">
@@ -59,7 +66,7 @@
 								<h2 class="news-carousel-title"><a href="<?php the_permalink(); ?>" class="news-carousel-title-link"><?php the_title(); ?></a></h2>
 								<div class="news-carousel-data"><?php the_time('d.m.Y') ?></div>
 								<div class="news-carousel-text">
-									<?php the_excerpt_max_charlength(100); ?>
+									<?php the_excerpt_max_charlength(400); ?>
 								</div>
 							</li>
 							<?php endforeach; ?>
@@ -93,7 +100,7 @@
 		<div class="tabs-box">
 			<ul class="main-list-news">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 6, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 6, 'category' => "8" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">

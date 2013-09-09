@@ -1,11 +1,11 @@
 <div class="future-games clearfix">
-<div class="future-games-title left"><?php _e('Ожидайте', 'kubrick'); ?></div>
+<div class="future-games-title left"><?php _e('Ожидайте', 'kubrick'); ?>:</div>
 <div class="future-games-slider sliderkit carousel right">
 	<div class="sliderkit-nav">
 		<div class="sliderkit-nav-clip">
 			<ul class="future-games-list">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 8, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 8, 'category' => "8" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<li class="future-game">
@@ -18,7 +18,10 @@
 					<div class="future-game-box">
 						<div class="vs"><?php _e('VS', 'kubrick'); ?>.</div>
 						<div class="future-game-info">
-							<i class="icon championship-very-small-icon <? echo get_post_meta($post->ID, 'championship', true); ?>-very-small-icon"></i>
+							<span class="fixed-tooltip-wrapper">
+								<i class="icon championship-very-small-icon <? echo get_post_meta($post->ID, 'championship', true); ?>-very-small-icon"></i>
+								<span class="fixed-tooltip"></span>
+							</span>
 							<span class="future-game-data"><? echo get_post_meta($post->ID, 'game-day', true); ?></span>
 						</div>
 					</div>

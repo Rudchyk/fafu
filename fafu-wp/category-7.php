@@ -6,16 +6,9 @@
 		<div class="main-video block">
 			<h2 class="title"><?php single_cat_title(''); ?></h2>
 			<ul class="video-list jbox">
-				<li class="video-item dib">
-					<div class="video-photo"><img src="<? echo get_post_meta($post->ID, 'video-img', true); ?>" alt="<?php the_title(); ?>"></div>
-					<h2 class="video-title">
-						<?php the_title(); ?>
-					</h2>
-					<a href="<?php the_permalink(); ?>" class="video-hover">
-						<i class="icon icon-play"></i>
-					</a>
-				</li>
+				<?php include (TEMPLATEPATH . '/video-item.php'); ?>
 			</ul>
+			<?php if (function_exists('wp_pagenavi')) {wp_pagenavi();} ?>
 		</div>
 		<?php else : ?>
 		<!--single & page-->
