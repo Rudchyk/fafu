@@ -13,58 +13,6 @@
 
 /*   	ICONS   
 ------------------------------*/
-
-.team-small-icon{
-	width: 26px;
-	height: 26px;
-	background-image: url(../images/small_team_sprite.png);
-	background-repeat: no-repeat;	
-}
-.wolves-small-icon{
-	background-position: -338px 0;
-}
-.mustangs-small-icon{
-	background-position: -260px 0;
-}
-.dolphins-small-icon{
-	background-position: -286px 0;
-}
-.lions-small-icon{
-	background-position: -182px 0;
-}
-.loggers-small-icon{
-	background-position: -364px 0;
-}
-.monarchs-small-icon{
-	background-position: -208px 0;
-}
-.atlantes-small-icon:hover{
-	background-position: 0 0;
-}
-.bandits-small-icon{
-	background-position: -104px 0;
-}
-.knights-small-icon{
-	background-position: -234px 0;
-}
-.pirates-small-icon{
-	background-position: -26px 0;
-}
-.rockets-small-icon{
-	background-position: -130px 0;
-}
-.scythians-small-icon{
-	background-position: -78px 0;
-}
-.slavs-small-icon{
-	background-position: -52px 0;
-}
-.tanks-small-icon{
-	background-position: -312px 0;
-}
-.tauris-small-icon{
-	background-position: -156px 0;
-}
 .social-icon{
 	width: 19px;
 	height: 19px;
@@ -116,16 +64,56 @@
 	height: 14px;
 	background-position: -106px -28px;
 }
-.championship-small-icon{
-	height: 44px;
+.team-small-icon{
+	width: 26px;
+	height: 26px;
+	background-image: url(../images/small_team_sprite.png);
+	background-repeat: no-repeat;	
 }
-.higher-small-icon{
-	width: 43px;
-	background-position: -55px -21px;
+.wolves-small-icon{
+	background-position: -338px 0;
 }
-.first-small-icon{
-	width: 43px;
-	background-position: -2px -19px;
+.mustangs-small-icon{
+	background-position: -260px 0;
+}
+.dolphins-small-icon{
+	background-position: -286px 0;
+}
+.lions-small-icon{
+	background-position: -182px 0;
+}
+.loggers-small-icon{
+	background-position: -364px 0;
+}
+.monarchs-small-icon{
+	background-position: -208px 0;
+}
+.atlantes-small-icon:hover{
+	background-position: 0 0;
+}
+.bandits-small-icon{
+	background-position: -104px 0;
+}
+.knights-small-icon{
+	background-position: -234px 0;
+}
+.pirates-small-icon{
+	background-position: -26px 0;
+}
+.rockets-small-icon{
+	background-position: -130px 0;
+}
+.scythians-small-icon{
+	background-position: -78px 0;
+}
+.slavs-small-icon{
+	background-position: -52px 0;
+}
+.tanks-small-icon{
+	background-position: -312px 0;
+}
+.tauris-small-icon{
+	background-position: -156px 0;
 }
 .team-square-icon{
 	width: 60px;
@@ -177,6 +165,50 @@
 }
 .tauris-square-icon{
 	background-position: 0 0;
+}
+.championship-big-icon{
+	height: 60px;
+	width: 60px;
+}
+.higher-big-icon{
+	background-position: 0 -224px;
+}
+.first-big-icon{
+	background-position: -60px -224px;
+}
+.cup-big-icon{
+	background-position: -120px -224px;
+}
+.flag-big-icon{
+	background-position: -60px -284px;
+}
+.arena-big-icon{
+	background-position: 0 -284px;
+}
+.friendly-big-icon{
+	background-position: -120px -284px;
+}
+.championship-small-icon{
+	height: 44px;
+	width: 44px;
+}
+.higher-small-icon{
+	background-position: 0 -344px;
+}
+.first-small-icon{
+	background-position: -44px -344px;
+}
+.cup-small-icon{
+	background-position: -88px -344px;
+}
+.flag-small-icon{
+	background-position: 0 -388px;
+}
+.arena-small-icon{
+	background-position: -132px -344px;
+}
+.friendly-small-icon{
+	background-position: -44px -388px;
 }
 .championship-very-small-icon{
 	width: 20px;

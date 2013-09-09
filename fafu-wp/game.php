@@ -29,7 +29,10 @@ Single Post Template: game
 			<div class="game-page-info-box">
 				<div class="game-page-data"><? echo get_post_meta($post->ID, 'game-day', true); ?></div>
 				<div class="game-page-championship">
-					<i class="icon championship-small-icon <? echo get_post_meta($post->ID, 'championship', true); ?>-small-icon"></i>
+					<span class="fixed-tooltip-wrapper">
+						<i class="icon championship-big-icon <? echo get_post_meta($post->ID, 'championship', true); ?>-big-icon"></i>
+						<span class="fixed-tooltip"></span>
+					</span>
 				</div>
 				<div class="game-page-score"><? echo get_post_meta($post->ID, 'game-score', true); ?></div>
 			</div>

@@ -1137,15 +1137,15 @@ td.roster-p-name{
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 5px;
-    /*color: #0D262D;*/
     color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
 .game-page-team-sity{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2em;
     line-height: 1;
-    /*color: #0D262D;*/
     color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
 .game-page-info-box{
     position: absolute;
@@ -1165,10 +1165,11 @@ td.roster-p-name{
     margin-top: 10px;
 }
 .game-page-score{
-    padding-top: 8px;
+    padding-top: 11px;
     font-weight: bold;
     font-size: 5em;
     color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
 /*   END CONTENT     
 ------------------------------*/

@@ -76,6 +76,26 @@ $(document).ready(function(){
 	    if($(this).hasClass('friendly-very-small-icon')){
 	    	$(this).parent().find('.fixed-tooltip').text('Товарищеская игра');
 	    }    	
+    }) 
+    $(".game-page-championship .icon").each(function(i){
+		if ($(this).hasClass('higher-big-icon')) {
+	    	$(this).parent().find('.fixed-tooltip').text('Высшая лига');
+	    }
+	    if($(this).hasClass('first-big-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Первая лига');
+	    }
+	    if($(this).hasClass('cup-big-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Кубок Украины');
+	    }
+	    if($(this).hasClass('flag-big-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Флаг-футбол');
+	    }
+	    if($(this).hasClass('arena-big-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Донбасс-Аренабол зимний чемпионат');
+	    }
+	    if($(this).hasClass('friendly-big-icon')){
+	    	$(this).parent().find('.fixed-tooltip').text('Товарищеская игра');
+	    }    	
     })  
 
 }); // Ready
