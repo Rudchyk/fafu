@@ -1,0 +1,260 @@
+/*   STANDARD STYLE   
+------------------------------*/
+
+a{
+	text-decoration:underline;
+	color: #298ca3;
+}
+a:hover{
+	text-decoration: underline;
+	color: #ed1c24;
+}
+blockquote{
+	margin: 16px 28px 16px 16px;
+	padding-left: 16px;
+	border-left: 2px solid #298ca3;
+	font-style: italic;
+	color: #298ca3;
+}
+blockquote cite{
+	margin: .313em 0 0; /*margin: 5px 0 0;*/
+	display: block;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+h1{
+	font-size: 130%;
+}
+h2{
+	font-size: 120%;
+}
+h3{
+	font-size: 110%;
+}
+h4{
+	font-size: 100%;
+}
+h5{
+	font-size: 90%;
+}
+h6{
+	font-size: 80%;
+}
+
+/*   END STANDARD STYLE   
+------------------------------*/
+
+/*   GLOBAL     
+------------------------------*/
+
+html {
+	min-width: 980px;
+}
+
+body{
+	background: #0d262d url(../images/bg.png) repeat-x top;
+	color: #3e3e3e;
+	font-size: .75em; /*12px*/
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.main_size{
+	width: 980px;
+	margin: auto;
+}
+.main{
+	position: relative;
+}
+
+html>body .main{
+	height: auto; 
+	min-height: 100%; 
+}
+
+.header{
+	height: 275px;
+	background: url(../images/header-bg.png) no-repeat top center;
+}
+
+.section{
+	padding: 10px;
+	margin-bottom: 9px;
+	padding-right: 0;
+}
+
+.content{
+	width: 665px;
+}
+
+.sidebar{
+	width: 300px;
+	margin-right: -6px;
+}
+
+.empty{
+	height: 235px;
+}
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 230px;
+	background: url(../images/footer-bg.jpg);	
+	overflow: hidden;
+	border-top: 5px solid #fff;
+}
+
+.title,
+.widgettitle{
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background: #0d262d;
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+}
+.main_title{
+	color: #181818;
+	text-transform: uppercase;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 2.08333333333333em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+}
+
+.text{
+	line-height: 1.5;
+}
+.block,
+.widget{
+	border: 1px solid #b6b6b6;
+	background: #efefef;
+}
+
+
+/*   END GLOBAL     
+------------------------------*/
+
+/*   COLORS     
+------------------------------*/
+
+/*   END COLORS     
+------------------------------*/
+
+/*   TEXT PAGE STYLE   
+------------------------------*/
+
+/*Стилизация заголовков в тексте*/
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6{
+	margin: 0 0 15px 0; /*Отступы заголовков в тексте*/
+	color: 000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.text h1{
+	font-size: 1.66666666666667em;
+}
+.text h2{
+	font-size: 1.5em;
+}
+.text h3{
+	font-size: 1.33333333333333em;
+}
+
+/*Стилизация ненумерованного списка*/
+.text ul{
+	list-style: disc; 
+	margin: 0 0 15px 0;
+}
+
+/*Стилизация нумерованного списка*/
+.text ol{
+	list-style: decimal;
+	margin: 0 0 15px 0;
+}
+
+/*Стилизация элемента списка*/
+.text li{
+	margin-left: 30px;
+}
+
+/*Стилизация элемента ненумерованного списка*/
+.text ul li{}
+
+/*Стилизация элемента нумерованного списка*/
+.text ol li{}
+
+/*Стилизация абзацев*/
+.text p{
+	margin: 0 0 15px 0;
+}
+
+/*Обнуление первого и последнего абзацев*/
+.text p:first-child, .text p:last-child{
+	margin: 0;
+}
+
+/*Стилизация ссылки на внешний источник*/
+.text a[href ^="http:"],
+.text a[href ^="https:"]{
+	padding-left: 15px;
+	background: url(../images/required/external_link_icon.gif) no-repeat left;
+}
+
+/*Стилизация блока картинки с описанием*/
+.text .wp-caption{
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+/*Стилизация картинки в блоке картинки с описанием*/
+.text .wp-caption img{}
+
+/*Стилизация таблиц*/
+.text table, 
+.text td{
+	border: 1px solid #ccc;
+}
+.text table{
+	width: 100%;
+}
+.text td{
+	padding: 5px;
+}
+
+/*   IMAGES    
+------------------------------*/
+
+.text img{} 
+
+img.aligncenter{
+	display: block;
+	margin: auto;
+	padding: 4px;
+	margin-bottom: 2px;
+}
+img.alignright{
+	padding: 4px;
+	margin: 0 0 5px 15px;
+	display: inline;
+}
+img.alignleft{
+	padding: 4px;
+	margin: 0 15px 5px 0;
+	display: inline;
+}
+.alignright{
+	float: right;
+}
+.alignleft{
+	float: left;
+}
+
+/*   END IMAGES     
+------------------------------*/
+
+/*   END TEXT PAGE STYLE      
+------------------------------*/

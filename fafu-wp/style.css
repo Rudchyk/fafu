@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+Author: Rudchyk.Sergii
+*/
+
+@import url(css/reset.min.css);
+@import url(css/main.css);
+@import url(css/formstyle.css);
+@import url(css/styles.css);
+@import url(css/icons.css);
+@import url(css/ie10.css);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic);
+
+@font-face {
+    font-family: 'collegiateheavyoutlineregular';
+    src: url('fonts/collegiateheavyoutline_medium-webfont.eot');
+    src: url('fonts/collegiateheavyoutline_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/collegiateheavyoutline_medium-webfont.woff') format('woff'),
+         url('fonts/collegiateheavyoutline_medium-webfont.ttf') format('truetype'),
+         url('fonts/collegiateheavyoutline_medium-webfont.svg#collegiateheavyoutlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

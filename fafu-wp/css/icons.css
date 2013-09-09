@@ -1,0 +1,259 @@
+/*   	SPRITE    
+------------------------------*/
+
+.icon,
+.nextpostslink:before,
+.previouspostslink:before{
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+}
+
+/*   END SPRITE     
+------------------------------*/
+
+/*   	ICONS   
+------------------------------*/
+
+.team-small-icon{
+	width: 26px;
+	height: 26px;
+	background-image: url(../images/small_team_sprite.png);
+	background-repeat: no-repeat;	
+}
+.wolves-small-icon{
+	background-position: -338px 0;
+}
+.mustangs-small-icon{
+	background-position: -260px 0;
+}
+.dolphins-small-icon{
+	background-position: -286px 0;
+}
+.lions-small-icon{
+	background-position: -182px 0;
+}
+.loggers-small-icon{
+	background-position: -364px 0;
+}
+.monarchs-small-icon{
+	background-position: -208px 0;
+}
+.atlantes-small-icon:hover{
+	background-position: 0 0;
+}
+.bandits-small-icon{
+	background-position: -104px 0;
+}
+.knights-small-icon{
+	background-position: -234px 0;
+}
+.pirates-small-icon{
+	background-position: -26px 0;
+}
+.rockets-small-icon{
+	background-position: -130px 0;
+}
+.scythians-small-icon{
+	background-position: -78px 0;
+}
+.slavs-small-icon{
+	background-position: -52px 0;
+}
+.tanks-small-icon{
+	background-position: -312px 0;
+}
+.tauris-small-icon{
+	background-position: -156px 0;
+}
+.social-icon{
+	width: 19px;
+	height: 19px;
+}
+.vk-icon{
+	background-position: 0 0;
+}
+.face-icon{
+	background-position: -21px 0;
+}
+.twitter-icon{
+	background-position: -43px 0;
+}
+.google-icon{
+	background-position: -64px 0;
+}
+.youtube-icon{
+	background-position: -85px 0;
+}
+.mail-icon{
+	background-position: -106px 0;
+}
+.rss-icon{
+	background-position: -127px 0;
+}
+.vk-icon:hover{
+	background-position: 0 -160px;
+}
+.face-icon:hover{
+	background-position: -21px -160px;
+}
+.twitter-icon:hover{
+	background-position: -43px -160px;
+}
+.google-icon:hover{
+	background-position: -64px -160px;
+}
+.youtube-icon:hover{
+	background-position: -85px -160px;
+}
+.mail-icon:hover{
+	background-position: -106px -160px;
+}
+.rss-icon:hover{
+	background-position: -127px -160px;
+}
+.search-icon{
+	width: 14px;
+	height: 14px;
+	background-position: -106px -28px;
+}
+.championship-small-icon{
+	height: 44px;
+}
+.higher-small-icon{
+	width: 43px;
+	background-position: -55px -21px;
+}
+.first-small-icon{
+	width: 43px;
+	background-position: -2px -19px;
+}
+.team-square-icon{
+	width: 60px;
+	height: 29px;
+	background-image: url(../images/square_team_sprite.png);
+	background-repeat: no-repeat;	
+}
+.wolves-square-icon{
+	background-position: -360px 0;
+}
+.mustangs-square-icon{
+	background-position: -660px 0;
+}
+.dolphins-square-icon{
+	background-position: -480px 0;
+}
+.lions-square-icon{
+	background-position: -720px 0;
+}
+.loggers-square-icon{
+	background-position: -840px 0;
+}
+.monarchs-square-icon{
+	background-position: -780px 0;
+}
+.atlantes-square-icon{
+	background-position: -120px 0;
+}
+.bandits-square-icon{
+	background-position: -60px 0;
+}
+.knights-square-icon{
+	background-position: -420px 0;
+}
+.pirates-square-icon{
+	background-position: -180px 0;
+}
+.rockets-square-icon{
+	background-position: -300px 0;
+}
+.scythians-square-icon{
+	background-position: -540px 0;
+}
+.slavs-square-icon{
+	background-position: -240px 0;
+}
+.tanks-square-icon{
+	background-position: -600px 0;
+}
+.tauris-square-icon{
+	background-position: 0 0;
+}
+.championship-very-small-icon{
+	width: 20px;
+	height: 18px;
+}
+.higher-very-small-icon{
+	background-position: -2px -119px;
+}
+.first-very-small-icon{
+	background-position: -22px -119px;
+}
+.slider-icon{
+	width: 15px;
+	height: 15px;
+}
+.slider-nav-icon{
+	background-position: -2px -141px;
+}
+.sliderkit-selected .slider-nav-icon,
+.slider-nav-icon:hover{
+	background-position: -22px -141px;
+}
+.more-icon{
+	width: 16px;
+	height: 16px;
+	background-position: -46px -72px;
+	margin-left: 10px;
+}
+.icon-play{
+	width: 40px;
+	height: 40px;
+	background-position: -1px -72px;	
+}
+.arrow-prev-icon{
+	background-position: -117px -104px;
+} 
+.arrow-next-icon{
+	background-position: -74px -104px;
+} 
+.arrow-prev-icon:hover{
+	background-position: -117px -68px;
+} 
+.arrow-next-icon:hover{
+	background-position: -74px -68px;
+} 
+.arrow-icon{
+	width: 32px;
+	height: 32px;
+}
+.post-more-icon{
+	width: 16px;
+	height: 14px;
+	background-position: -47px -93px;
+}
+.champ-icon{
+	height: 26px;	
+}
+.champ-higher-icon{
+	width: 24px;
+	background-position: -4px -179px;
+}
+.champ-first-icon{
+	width: 23px;
+	background-position: -38px -179px;
+}
+.champ-cup-icon{
+	width: 31px;
+	background-position: -64px -179px;
+}
+.champ-arenabol-icon{
+	width: 15px;
+	background-position: -98px -179px;
+}
+.champ-flag-icon{
+	width: 18px;
+	background-position: -121px -179px;
+}
+/*   	END ICONS    
+------------------------------*/
+

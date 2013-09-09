@@ -1,0 +1,34 @@
+/*
+css for IE8
+*/
+.b-form-input_input{
+	line-height: px;
+}
+.field{
+	line-height: px;
+}
+.field-search{
+	line-height: 13px;
+}
+.nav{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#cacaca',GradientType=0 );
+}
+.future-games{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e0e0e0',GradientType=0 );
+}
+.top-nav a:hover,
+.top-nav .current-menu-item a{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184b5c', endColorstr='#0d262d',GradientType=0 );
+}
+.friends-link:hover{
+    background: url(../images/bg-ie8-dark-opacity-20.png);
+}
+.main-carousel-content,
+.video-title,
+.main-player-info{
+	background: url(../images/bg-ie8-dark-opacity-80.png);
+}
+.video-hover,
+.last-games{
+	background: url(../images/bg-ie8-dark-opacity-50.png);
+}
