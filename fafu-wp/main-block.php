@@ -84,13 +84,15 @@
 		<div class="tabs-box">
 			<ul class="main-list-news">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 6, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "2" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
 					<div class="main-item-data left"><?php the_time('d.m.Y') ?></div>
 					<div class="main-item-content">
-						<a href="<?php the_permalink(); ?>" class="main-link-news"><?php short_title(50); ?></a>
+						<div class="main-link-news dib overflow_text">
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						</div>
 					</div>
 				</li>
 				<?php endforeach; ?>
@@ -100,13 +102,15 @@
 		<div class="tabs-box">
 			<ul class="main-list-news">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 6, 'category' => "8" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "8" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
 					<div class="main-item-data left"><?php the_time('d.m.Y') ?></div>
 					<div class="main-item-content">
-						<a href="<?php the_permalink(); ?>" class="main-link-news"><?php short_title(50); ?></a>
+						<div class="main-link-news dib overflow_text">
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						</div>
 					</div>
 				</li>
 				<?php endforeach; ?>

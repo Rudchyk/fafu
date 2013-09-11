@@ -16,18 +16,6 @@
 .team-item a{
     display: block;
 }
-/*.team-item:hover{
-    border-bottom-color: #fff;
-}
-.team-item:hover:before{
-    content: '';
-    border: 3px solid transparent;
-    border-bottom-color: #fff;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-    position: absolute;
-}*/
 .hallo{
     font-size: 1.16666666666667em;
     color: #fff;
@@ -591,6 +579,9 @@
 }
 .main-list-more a:hover{
     text-decoration: none;
+}
+.main-link-news{
+    width: 100%;
 }
 .middle-menu-item{
     position: relative;
