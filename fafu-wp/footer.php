@@ -61,7 +61,7 @@
 	scripts
 	-->
 	<!--jQuery library-->
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.10.2.min.js"></script>
 	<!--jquery sliderkit library-->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.sliderkit.1.9.2.pack.js"></script>	
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-jvectormap-1.2.2.min.js"></script>

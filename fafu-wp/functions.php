@@ -3,15 +3,14 @@
  * @package WordPress
  */
 
-
 // sidebar widget
 if ( function_exists('register_sidebar') ) {
-	register_sidebar(array(
-		'before_widget' => '<li id="%1$s" class="widget %2$s">',
-		'after_widget' => '</li>',
-		'before_title' => '<h2 class="widgettitle">',
-		'after_title' => '</h2>',
-	));
+  register_sidebar(array(
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2>',
+  ));
 }
 // end sidebar widget
 
@@ -45,8 +44,8 @@ register_nav_menus(array(
 // Настройки вывода меню
 function my_wp_nav_menu_args($args=''){
   $args['container'] = '';
-	$args['depth'] = '1';
-	$args['menu_class'] = '';
+  $args['depth'] = '1';
+  $args['menu_class'] = '';
      return $args;
 } // function
 add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
@@ -102,5 +101,6 @@ function short_title($char) {
   echo $title;
 }
 
+function kubrick_theme_page() {
 ?>
-
+<?php } ?>
