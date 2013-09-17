@@ -1452,5 +1452,54 @@ td.roster-p-name{
 .sliderkit-btn-disable{
     display: none;
 }
+.popup-link{
+  cursor: pointer;
+}
+.popup-shadow{
+    display: none;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+.popupper{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+}
+.popupper-close{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+.popupper_mail{
+    width: 350px;
+}
+.popupper-close:hover{}
+.popupper-b{
+    padding: 10px;
+}
+.popupper .title{
+    margin-left: -10px;
+}
+.popupper .gcf_button{
+    padding-top: 10px;
+}
+.popupper .field{
+    width: 100%;
+    height: 30px;
+}
+.popupper textarea.field{
+    height: 100px;
+    padding: 5px;
+}
+#gcf{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
 /*   END OTHER STYLES     
 ------------------------------*/

@@ -56,6 +56,7 @@
 		<!--end footer-->
 	</div>
 	<!--end main block-->
+	<?php include (TEMPLATEPATH . '/popup.php'); ?>
 
 	<!--
 	scripts

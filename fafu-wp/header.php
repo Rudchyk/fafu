@@ -52,8 +52,8 @@
 					<li class="dib social-item"><a href="#" class="icon social-icon twitter-icon"></a></li>
 					<li class="dib social-item"><a href="#" class="icon social-icon google-icon"></a></li>
 					<li class="dib social-item"><a href="#" class="icon social-icon youtube-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon mail-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon rss-icon"></a></li>
+					<li class="dib social-item"><span class="icon social-icon mail-icon popup-link popup-link-js" data-popup="mail"></span></li>
+					<li class="dib social-item"><a href="<?php bloginfo('rss2_url'); ?>" class="icon social-icon rss-icon"></a></li>
 				</ul>
 				<!--search-->
 				<form action="<?php bloginfo('url'); ?>/" method="get" name="searchform" role="search" class="search right">

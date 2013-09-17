@@ -349,6 +349,14 @@
 	width: 18px;
 	background-position: -121px -179px;
 }
+.close-icon{
+	width: 14px;
+	height: 14px;
+	background-position: -103px -393px;
+}
+.close-icon:hover{
+	background-position: -103px -413px;
+}
 /*   	END ICONS    
 ------------------------------*/
 

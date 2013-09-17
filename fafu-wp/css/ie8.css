@@ -10,7 +10,8 @@ css for IE8
 .field-search{
 	line-height: 13px;
 }
-.nav{
+.nav,
+.button{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#cacaca',GradientType=0 );
 }
 .future-games{
