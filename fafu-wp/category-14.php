@@ -6,7 +6,9 @@
 		<div class="main-video block">
 			<h2 class="title"><?php single_cat_title(''); ?></h2>
 			<ul class="video-list jbox">
+				<?php while (have_posts()) : the_post(); ?> 
 				<?php include (TEMPLATEPATH . '/video-item.php'); ?>
+				<?php endwhile; ?>				
 			</ul>
 			<?php if (function_exists('wp_pagenavi')) {wp_pagenavi();} ?>
 		</div>

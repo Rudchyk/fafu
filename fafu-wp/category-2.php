@@ -7,7 +7,7 @@
 			<h2 class="title"><?php single_cat_title(''); ?></h2>
 			<ul class="main-players-list tac no-players-list">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "6" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "2" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?> 
 				<li class="main-player dib">

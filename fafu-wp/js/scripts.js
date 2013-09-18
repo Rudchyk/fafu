@@ -98,10 +98,8 @@ $(document).ready(function(){
 	    }    	
     });
 
-    $(document).ready(function(){
-	  $('.popup-link-js').modal();
-	}); 
-
+	$('.popup-link-js').modal();
+	
 	$().UItoTop({ 
         containerID: 'toTop',
         containerHoverID: 'toTopHover',

@@ -24,7 +24,7 @@
 		</div>
 		<div class="sliderkit-panels">
 			<?php
-			$args = array( 'numberposts' => 1, 'posts_per_page' => 5, 'category' => "2" );
+			$args = array( 'numberposts' => 1, 'posts_per_page' => 5, 'category' => "8" );
 			$lastposts = get_posts( $args );
 			foreach($lastposts as $post) : setup_postdata($post); ?>			
 			<div class="sliderkit-panel">
@@ -59,7 +59,7 @@
 					<div class="sliderkit-nav-clip">
 						<ul class="news-carousel-list">
 							<?php
-							$args = array( 'numberposts' => 1, 'posts_per_page' => 5, 'category' => "2" );
+							$args = array( 'numberposts' => 1, 'posts_per_page' => 5, 'category' => "5" );
 							$lastposts = get_posts( $args );
 							foreach($lastposts as $post) : setup_postdata($post); ?>							
 							<li class="news-carousel-item">
@@ -84,7 +84,7 @@
 		<div class="tabs-box">
 			<ul class="main-list-news">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "6" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
@@ -97,12 +97,12 @@
 				</li>
 				<?php endforeach; ?>
 			</ul>
-			<p class="tar main-list-more"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>
+			<p class="tar main-list-more"><a href="/category/pervaya-liga/"><?php _e('Все новости', 'kubrick'); ?></a></p>
 		</div>
 		<div class="tabs-box">
 			<ul class="main-list-news">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "8" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 9, 'category' => "7" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
@@ -115,7 +115,7 @@
 				</li>
 				<?php endforeach; ?>
 			</ul>
-			<p class="tar main-list-more"><a href="#"><?php _e('Все новости', 'kubrick'); ?></a></p>				
+			<p class="tar main-list-more"><a href="/category/kubok/"><?php _e('Все новости', 'kubrick'); ?></a></p>				
 		</div>
 	</div>				
 </div>

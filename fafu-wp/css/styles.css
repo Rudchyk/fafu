@@ -801,6 +801,7 @@
     text-transform: uppercase;
     font-weight: 300;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
 }
 .video-hover{
     display: none;

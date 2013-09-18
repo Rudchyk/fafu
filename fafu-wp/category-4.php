@@ -6,7 +6,7 @@
 			<h2 class="title"><?php _e('Доска почёта', 'kubrick'); ?></h2>
 			<ul class="main-players-list jbox">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 4, 'category' => "5" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 4, 'category' => "19" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>		
 				<?php include (TEMPLATEPATH . '/main-player.php'); ?>
@@ -29,7 +29,7 @@
 					<th class="roster-cell roster-p-team"><?php _e('Команда', 'kubrick'); ?></th>
 				</tr>
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "5" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "4" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<tr class="roster-row roster-light-row">
