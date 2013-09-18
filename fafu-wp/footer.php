@@ -69,6 +69,8 @@
     <script src="<?php bloginfo('stylesheet_directory'); ?>/js/UkraineOblasti.js"></script>
     <!-- actual -->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.actual.min.js"></script>
+	<!-- easing plugin ( optional ) -->
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/easing.js"></script>
 	<!--My Scripts-->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts.js"></script>
 <?php wp_footer(); ?>
