@@ -5,7 +5,7 @@
 		<div class="sliderkit-nav-clip">
 			<ul class="future-games-list">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 8, 'category' => "10" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 8, 'category' => "10", 'order'=> 'ASC' );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<li class="future-game">

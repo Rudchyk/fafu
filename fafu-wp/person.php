@@ -51,7 +51,7 @@ Single Post Template: person
 							<li class="player-page-item">Д.Р.: <? echo get_post_meta($post->ID, 'age', true); ?>г.</li>
 							<li class="player-page-item">Опыт: с <? echo get_post_meta($post->ID, 'exp', true); ?>г.</li>
 							<li class="player-page-item">Город: <? echo get_post_meta($post->ID, 'city', true); ?></li>
-							<li class="player-page-item">Команда:<br /> <? echo get_post_meta($post->ID, 'team-name', true); ?></li>
+							<li class="player-page-item">Команда: <? echo get_post_meta($post->ID, 'team-name', true); ?></li>
 						</ul>								
 					</div>
 				</div>

@@ -1,47 +1,3 @@
-middle-menu.php - Баннеры на главной
-main-block.php - Слайдер и блок с новостями
-future-games.php - Будущие игры
-last-games.php - Прошедшие игры
-team-list.php - Cписок команд в хедере 
-partners-widget.php - Виджет "Партнерство"
-friends.php - блок "Наши друзья"
-main-video.php - Блок "Свежее видео"
-main-players.php - Блок "Члены сборной Украины"
-nav-widget.php - Виджет рубрики
-category-5.php - Категория "Ростер"
-category-6.php - Категория "Тренеры"
-category-7.php - Категория "Видео"
-main-player.php - Шаблон игрока
-
-font-family: 'Open Sans Condensed', sans-serif;
-
-Light 300
-Light 300 Italic
-Bold 700
-
-9px	- .75em
-10px - .833333333333333em
-11px - .916666666666667em
-12px - 1em
-13px - 1.08333333333333em
-14px - 1.16666666666667em
-15px - 1.25em
-16px - 1.33333333333333em
-17px - 1.41666666666667em
-18px - 1.5em
-19px - 1.58333333333333em
-20px - 1.66666666666667em
-21px - 1.75em
-22px - 1.83333333333333em
-23px - 1.91666666666667em
-24p - 2em
-25px - 2.08333333333333em
-26px - 2.16666666666667em
-27px - 2.25em
-28px - 2.33333333333333em
-29px - 2.41666666666667em
-30px - 2.5em
-
 Произвольные поля:
 
 Игра:
@@ -162,6 +118,6 @@ city - Город
 date - Дата основания
 children - Детская команда
 website - Сайт
-team-photo - Фото команды 980*479 (450*220)
+team-photo - Фото команды 980*479
 progress - Достижения
 contacts - Контакты

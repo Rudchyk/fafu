@@ -101,6 +101,9 @@ function short_title($char) {
   echo $title;
 }
 
+// Добавление поддержки миниатюр в тему
+add_theme_support('post-thumbnails');
+
 function kubrick_theme_page() {
 ?>
 <?php } ?>

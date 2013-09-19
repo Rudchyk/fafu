@@ -341,6 +341,7 @@
     width: 675px;
     height: 318px;
     position: relative;
+    background: url(../images/loading.gif) no-repeat center center;
 }
 .main-carousel .sliderkit-nav{
     position: absolute;
@@ -1013,16 +1014,20 @@ td.roster-p-name{
     color: #298ca3;
     text-decoration: underline;
 }
-.page-player-text{
+.page-player-text,
+.page-team-text{
     padding: 15px 20px 30px;
 }
-.page-player .title{
+.page-player .title,
+.page-team .title{
     margin-top: 10px;
 }
-.page-player{
+.page-player,
+.page-team{
     margin-right: 10px;
 }
-.player-page-info{
+.player-page-info,
+.team-page-info{
     position: relative;
 }
 .player-page-info img{
@@ -1030,7 +1035,7 @@ td.roster-p-name{
     height: 250px;
 }
 .player-page-box{
-    width: 480px;
+    width: 550px;
     height: 250px;
     position: absolute;
     left: 0;
@@ -1162,6 +1167,74 @@ td.roster-p-name{
     font-size: 5em;
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+.team-page-info{
+    position: relative;
+}
+.team-page-box{
+    width: 100%;
+    height: 250px;
+    background: #0D262D;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 15px;
+}
+.team-page-left{
+    width: 440px;
+}
+.team-page-right{
+    width: 450px;
+}
+.team-page-right img{
+    width: 450px;
+    height: 220px;
+}
+.team-page-photo{
+    width: 180px;
+    border: 4px solid #F4E841;
+}
+.team-page-content{
+    padding-left: 205px;
+    color: #fff;
+}
+.team-page-name,
+.team-page-surname{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;    
+}
+.team-page-name{
+    font-size: 2.5em;
+    margin-top: -10px;
+}
+.team-page-surname{
+}
+.team-page-desc{
+    padding-top: 10px;
+}
+.team-page-number{
+    font-family: 'collegiateheavyoutlineregular';
+    font-size: 2.5em;
+    margin-right: 5px;
+    padding-right: 3px;    
+}
+.team-page-pos{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.team-page-list{
+    padding-top: 10px;
+    font-size: .9em;
+}
+.team-page-item{
+    line-height: 1.5;
+}
+.team-page-item a{
+    color: #fff;
+}
+.team-page-item a:hover{
+    text-decoration: none;
 }
 /*   END CONTENT     
 ------------------------------*/
@@ -1530,6 +1603,12 @@ td.roster-p-name{
 
 #toTop:active, #toTop:focus {
     outline:none;
+}
+.coach-team{
+    margin-bottom: 11px;
+}
+.roster-p-name{
+    width: 172px;
 }
 /*   END OTHER STYLES     
 ------------------------------*/

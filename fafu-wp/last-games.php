@@ -1,7 +1,7 @@
 <div class="last-games">
 	<div class="last-games-window">
 		<?php
-		$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "11" );
+		$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "11", 'order'=> 'ASC' );
 		$lastposts = get_posts( $args );
 		foreach($lastposts as $post) : setup_postdata($post); ?>		
 		<div class="last-game">

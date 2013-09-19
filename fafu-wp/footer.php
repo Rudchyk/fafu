@@ -10,7 +10,7 @@
 				</div>
 				<!--end footer logo-->
 				<!--footer text-->
-				<div class="f-text"><?php _e('Все права защищены.', 'kubrick'); ?>© 2012</div>
+				<div class="f-text"><?php _e('Все права защищены', 'kubrick'); ?>© 2013</div>
 				<!--end footer text-->			
 			</div>
 			<!--footer navigation WP-->
@@ -71,6 +71,7 @@
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.actual.min.js"></script>
 	<!-- easing plugin ( optional ) -->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/easing.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/lightbox-2.6.min.js"></script>
 	<!--My Scripts-->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts.js"></script>
 <?php wp_footer(); ?>

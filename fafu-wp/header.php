@@ -5,6 +5,7 @@
 	<title><?php bloginfo('name');?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>"> 
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/lightbox.css">
 	<!--CSS print-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/print.css" media="print">
     <!--[if !IE]><!-->
@@ -47,13 +48,13 @@
 			</div>
 			<div class="h-bottom clearfix">
 				<ul class="social-list h-social-list left">
-					<li class="dib social-item"><a href="#" class="icon social-icon vk-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon face-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon twitter-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon google-icon"></a></li>
-					<li class="dib social-item"><a href="#" class="icon social-icon youtube-icon"></a></li>
+					<li class="dib social-item"><noindex><a href="http://vk.com/americanfootballinua" class="icon social-icon vk-icon" target="_blank" rel="nofollow"></a></noindex></li>
+					<li class="dib social-item"><noindex><a href="https://www.facebook.com/pages/Федерация-американского-футбола-Украины/102390313177835?ref=br_rs#" class="icon social-icon face-icon" target="_blank" rel="nofollow"></a></noindex></li>
+					<li class="dib social-item"><noindex><a href="https://twitter.com/FAFUkraine" class="icon social-icon twitter-icon" target="_blank" rel="nofollow"></a></noindex></li>
+					<li class="dib social-item"><noindex><a href="https://plus.google.com/100186958012968374741/posts" class="icon social-icon google-icon" target="_blank" rel="nofollow"></a></noindex></li>
+					<!-- <li class="dib social-item"><noindex><a href="#" class="icon social-icon youtube-icon" target="_blank" rel="nofollow"></a></noindex></li> -->
 					<li class="dib social-item"><span class="icon social-icon mail-icon popup-link popup-link-js" data-popup="mail"></span></li>
-					<li class="dib social-item"><a href="<?php bloginfo('rss2_url'); ?>" class="icon social-icon rss-icon"></a></li>
+					<!-- <li class="dib social-item"><a href="<?php bloginfo('rss2_url'); ?>" class="icon social-icon rss-icon"></a></li> -->
 				</ul>
 				<!--search-->
 				<form action="<?php bloginfo('url'); ?>/" method="get" name="searchform" role="search" class="search right">

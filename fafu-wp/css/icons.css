@@ -272,13 +272,13 @@
 	background-position: -20px -205px;
 }
 .cup-very-small-icon{
-	background-position: -40px -205px;
-}
-.flag-very-small-icon{
 	background-position: -60px -205px;
 }
-.arena-very-small-icon{
+.flag-very-small-icon{
 	background-position: -80px -205px;
+}
+.arena-very-small-icon{
+	background-position: -40px -205px;
 }
 .friendly-very-small-icon{
 	background-position: -100px -205px;
@@ -338,12 +338,12 @@
 	background-position: -38px -179px;
 }
 .champ-cup-icon{
-	width: 31px;
-	background-position: -64px -179px;
-}
-.champ-arenabol-icon{
 	width: 15px;
 	background-position: -98px -179px;
+}
+.champ-arenabol-icon{
+	width: 31px;
+	background-position: -64px -179px;
 }
 .champ-flag-icon{
 	width: 18px;

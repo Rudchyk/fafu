@@ -11,7 +11,7 @@
 				<h2 class="title cat-title"><?php the_category(', ') ?></h2>
 				<h1 class="single-title break"><?php the_title(); ?></h1>
 				<div class="data"><?php the_time('d F Y') ?></div>
-				<div class="text single-text page-text break">
+				<div class="text single-text page-text break clearfix">
 					<?php the_content(''); ?>
 				</div>
 			</article>

@@ -204,17 +204,24 @@ html>body .main{
 	margin: 0;
 }
 
-/*Стилизация ссылки на внешний источник*/
-.text a[href ^="http:"],
-.text a[href ^="https:"]{
-	padding-left: 15px;
-	background: url(../images/required/external_link_icon.gif) no-repeat left;
-}
-
 /*Стилизация блока картинки с описанием*/
 .text .wp-caption{
-	border: 1px solid #fff;
+	border: 1px solid #b6b6b6;
 	text-align: center;
+	padding: 5px 0;
+	background: #fff;
+}
+.text .wp-caption-text{
+	padding-top: 5px;
+}
+.text .wp-caption.alignleft{
+	margin: 0 15px 5px 0;
+}
+.text .wp-caption.alignright{
+	margin: 0 0 5px 15px;
+}
+.text .wp-caption.aligncenter{
+	margin: auto;
 }
 
 /*Стилизация картинки в блоке картинки с описанием*/

@@ -9,7 +9,7 @@
 			<!--article-->
 			<article class="single block">
 				<h1 class="single-title break"><?php the_title(); ?></h1>
-				<div class="text single-text page-text break">
+				<div class="text single-text page-text break clearfix">
 					<?php the_content(''); ?>
 				</div>
 			</article>

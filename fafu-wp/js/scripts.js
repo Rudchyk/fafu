@@ -207,14 +207,14 @@ function roster(){
 	var currentTime = new Date(),
 		currentYear = currentTime.getFullYear();
 		
-	$("td.roster-p-age").each(function(i){
+	$("span.roster-p-age").each(function(i){
 		var playerData = $(this).text(),
 			playerYear = playerData.substr(-4),
 			playerAge = currentYear - playerYear;
 
 			$(this).text(playerAge);
 	}) 
-	$("td.roster-p-exp").each(function(i){
+	$("span.roster-p-exp").each(function(i){
 		var playerExp = $(this).text(),
 			playerExpYear = playerExp.substr(-4),
 			playerExpAge = currentYear - playerExpYear;
