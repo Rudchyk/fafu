@@ -676,6 +676,7 @@
 }
 .main-posts-img img{
     width: 130px;
+    height: auto;
 }
 .main-posts-content{
     padding-left: 140px;
