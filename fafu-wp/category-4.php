@@ -34,7 +34,7 @@
 					<td class="roster-cell"><span class="roster-p-exp"><? echo get_post_meta($post->ID, 'exp', true); ?></span> лет</td>
 					<td class="roster-cell roster-p-team">
 						<div class="fixed-tooltip-wrapper dib">
-							<a href="<? echo get_post_meta($post->ID, 'team-link', true); ?>"><i class="icon team-small-icon <? echo get_post_meta($post->ID, 'team', true); ?>-small-icon"></i></a>
+							<a href="/<? echo get_post_meta($post->ID, 'team', true); ?>/"><i class="icon team-small-icon <? echo get_post_meta($post->ID, 'team', true); ?>-small-icon"></i></a>
 							<span class="fixed-tooltip"><? echo get_post_meta($post->ID, 'team-name', true); ?> (<? echo get_post_meta($post->ID, 'city', true); ?>)</span>									
 						</div>
 					</td>
@@ -71,7 +71,7 @@
 					<td class="roster-cell"><span class="roster-p-exp"><? echo get_post_meta($post->ID, 'exp', true); ?></span> лет</td>
 					<td class="roster-cell roster-p-team">
 						<div class="fixed-tooltip-wrapper dib">
-							<a href="<? echo get_post_meta($post->ID, 'team-link', true); ?>"><i class="icon team-small-icon <? echo get_post_meta($post->ID, 'team', true); ?>-small-icon"></i></a>
+							<a href="/<? echo get_post_meta($post->ID, 'team', true); ?>/"><i class="icon team-small-icon <? echo get_post_meta($post->ID, 'team', true); ?>-small-icon"></i></a>
 							<span class="fixed-tooltip"><? echo get_post_meta($post->ID, 'team-name', true); ?> (<? echo get_post_meta($post->ID, 'city', true); ?>)</span>									
 						</div>
 					</td>

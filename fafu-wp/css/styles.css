@@ -1441,7 +1441,9 @@ td.roster-p-name{
     font-weight: bold;
 }
 /*footer text*/
-
+.f-right{
+    width: 521px;
+}
 .f-nav{
     padding: 15px 40px 0 0;
 }

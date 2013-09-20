@@ -62,7 +62,6 @@ home-team - Домашняя команда
 	tanks - Танки
 	tauris - Тавры
 
-home-team-link - Ссылка на страницу домашней команды
 home-team-name - Имя домашней команды
 home-team-city - Город домашней команды
 
@@ -83,7 +82,6 @@ visited-team - Гостевая команда
 	tanks - Танки
 	tauris - Тавры
 
-visited-team-link - Ссылка на страницу гостевой команды
 visited-team-name - Имя гостевой команды
 visited-team-city - Город гостевой команды
 
@@ -126,7 +124,6 @@ team - Команда
 	tauris - Тавры
 team-name - Имя команды
 city - Город
-team-link - Ссылка на страницу команды
 status - Статус
 
 Видео:

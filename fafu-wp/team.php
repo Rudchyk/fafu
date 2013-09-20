@@ -59,7 +59,7 @@ Single Post Template: team
 		</div>	
 		<?php endwhile; ?>
 	</div>
-	<?php else : ?>	
+	<?php else : ?>
 	<div class="page-team block">
 		<h1 class="single-title break"><?php _e('Персона не найдена', 'kubrick'); ?></h1>
 		<div class="text single-text page-text break">

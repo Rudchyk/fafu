@@ -4,6 +4,8 @@ $(document).ready(function(){
         target: "_blank"
     }).addClass('external');
 
+    $('.text a[href ^="http://fafu.in.ua/"], .text a[href ^="https://fafu.in.ua/"]').removeClass('external');
+
     $('.text a[href ^="http:"] img, .text a[href ^="https:"] img, .text a[href ^="http:"] span, .text a[href ^="https:"] span, .text a[href ^="http:"] div, .text a[href ^="https:"] div').each(function(i){
         if($(this).length){             
            $(this).parent().removeClass('external');
