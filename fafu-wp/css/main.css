@@ -238,6 +238,18 @@ html>body .main{
 .text td{
 	padding: 5px;
 }
+.text .slideshowlink{
+	display: none;
+}
+.text .ngg-galleryoverview{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-left: 42px;
+}
+.text .external{
+	padding-left: 16px;
+	background: url(../images/required/external_link_icon.gif) no-repeat left;
+}
 
 /*   IMAGES    
 ------------------------------*/

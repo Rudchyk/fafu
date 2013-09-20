@@ -10,7 +10,7 @@
 				</div>
 				<!--end footer logo-->
 				<!--footer text-->
-				<div class="f-text"><?php _e('Все права защищены', 'kubrick'); ?>© 2013</div>
+				<div class="f-text"><?php _e('Все права защищены', 'kubrick'); ?> © 2013</div>
 				<!--end footer text-->			
 			</div>
 			<!--footer navigation WP-->
@@ -33,20 +33,20 @@
 				<div class="counter f-counter">
 					<ul class="counter-list">
 						<li class="counter-item dib">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/counter.jpg" alt="">
+							<!--Openstat--><span id="openstat2170219"></span><script type="text/javascript">
+							var openstat = { counter: 2170219, image: 5045, next: openstat }; (function(d, t, p) {
+							var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+							j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+							var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+							})(document, "script", document.location.protocol);
+							</script><!--/Openstat-->
 						</li>
 						<li class="counter-item dib">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/counter.jpg" alt="">
+							<a title="Яна Ерина - услуги редактора-корректора" href="http://www.yerina.com.ua" target="_blank"><img src="http://www.yerina.com.ua/images/YE_white.png" alt="Яна Ерина - услуги литературного редактора, корректора" width="88" height="31" border="0" /></a>
 						</li>
-						<li class="counter-item dib">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/counter.jpg" alt="">
-						</li>
-						<li class="counter-item dib">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/counter.jpg" alt="">
-						</li>
-						<li class="counter-item dib">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/counter.jpg" alt="">
-						</li>
+						<!-- <li class="counter-item dib">
+							
+						</li> -->
 					</ul>
 				</div>	
 				<!--end counters-->					

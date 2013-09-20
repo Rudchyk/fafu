@@ -1,8 +1,14 @@
 $(document).ready(function(){
 
 	$('.text a[href ^="http:"], .text a[href ^="https:"]').attr({
-		target: "_blank"
-	});
+        target: "_blank"
+    }).addClass('external');
+
+    $('.text a[href ^="http:"] img, .text a[href ^="https:"] img, .text a[href ^="http:"] span, .text a[href ^="https:"] span, .text a[href ^="http:"] div, .text a[href ^="https:"] div').each(function(i){
+        if($(this).length){             
+           $(this).parent().removeClass('external');
+        }   
+    });
 	
 	$("input[placeholder], textarea[placeholder]").textPlaceholder();
 
@@ -106,6 +112,15 @@ $(document).ready(function(){
         scrollSpeed: 1200,                
         easingType: 'easeOutQuart' 
     });	
+
+	$(".nav a").each(function(i){
+		var urlPageNav = "http://forum.fafu.in.ua/",
+			navItem = $(this).attr('href');
+		if (navItem == urlPageNav) {
+			$(this).attr('target', '_blank');
+		};		
+	})
+	
 
 }); // Ready
 
@@ -264,7 +279,6 @@ roster();
           }
       });      
       $(document).click(function(event) {
-          console.log(settings.key);
           var state = $('.popup-shadow-js').css("display") == 'none';
           if(settings.key && !$(event.target).closest(settings.popup).length){
               block(settings);

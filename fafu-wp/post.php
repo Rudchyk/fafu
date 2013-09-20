@@ -19,7 +19,7 @@
 		</div>
 		<div class="post-content">
 			<div class="post-text break">
-				<?php the_excerpt_max_charlength(500); ?>								
+				<?php the_excerpt_max_charlength(450); ?>								
 			</div>
 			<div class="post-more"><a href="<?php the_permalink() ?>#more-<?php the_ID(); ?>" class="post-more-link"><i class="icon post-more-icon"></i><span><?php _e('Читать полностью', 'kubrick'); ?></span></a></div>
 		</div>

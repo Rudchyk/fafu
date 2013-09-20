@@ -7,6 +7,8 @@
 		<?php } else{ ?>
 		<!--widget menu wp-->
 		<?php include (TEMPLATEPATH . '/nav-widget.php'); ?>
+		<?php include (TEMPLATEPATH . '/cat-widget.php'); ?>
+		<?php include (TEMPLATEPATH . '/aside-news-widget.php'); ?>
 		<!--end widget menu wp-->
 		<?php } ?>
 		<!--vk-widget-->
@@ -15,7 +17,7 @@
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/temp/vk.jpg" alt="">
 			</div>
 		</li>
-		<!--end vk-widget-->	
+		<!--end vk-widget-->		
 		<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
 		<?php endif ?>				
 	</ul>

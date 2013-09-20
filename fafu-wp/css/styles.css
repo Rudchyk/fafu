@@ -335,13 +335,13 @@
 }
 .future-game-data{}
 .main-block{
-    height: 318px
+    height: 318px;
+    background: #fff url(../images/loading.gif) no-repeat 325px 50%!important;
 }
 .main-carousel{
     width: 675px;
     height: 318px;
     position: relative;
-    background: url(../images/loading.gif) no-repeat center center;
 }
 .main-carousel .sliderkit-nav{
     position: absolute;
@@ -660,13 +660,16 @@
     color: #298ca3;
     text-decoration: underline;
 }
-.main-posts-img{
+.main-posts-img,
+.aside-news-img{
     width: 130px;
     border: 1px solid #fff;
     height: 75px;
     overflow: hidden;
+    background: #fff url(../images/loading.gif) no-repeat center;
 }
-.main-posts-img-window{
+.main-posts-img-window,
+.aside-news-img-window{
     width: 130px;
     height: 300px;
     top: -112px;
@@ -674,21 +677,25 @@
     display: table-cell;
     vertical-align: middle;
 }
-.main-posts-img img{
+.main-posts-img img,
+.aside-news-img-window img{
     width: 130px;
     height: auto;
 }
-.main-posts-content{
+.main-posts-content,
+.aside-news-content{
     padding-left: 140px;
 }
-.main-posts-title{
+.main-posts-title,
+.aside-news-title{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     font-size: 1.33333333333333em;
     color: #181818;
     line-height: 1.2;
 }
-.main-posts-data{
+.main-posts-data,
+.aside-news-data{
     font-size: .916666666666667em;
     color: #747474;
     padding-top: 5px;
@@ -725,6 +732,7 @@
 }
 .main-player-photo{
     position: relative;
+    background: #fff url(../images/loading.gif) no-repeat center;
 }
 .main-player-photo img{
     width: 122px;
@@ -783,6 +791,9 @@
     margin-bottom: 10px;
     position: relative;
     height: 146px;
+}
+.video-photo{
+    background: #fff url(../images/loading.gif) no-repeat center;
 }
 .video-photo img{
     width: 100%;
@@ -873,11 +884,11 @@
     width: 190px;
     height: 142px;
     padding: 4px;
-    background: #fff;
+    background: #fff url(../images/loading.gif) no-repeat center;
     border: 1px solid #b6b6b6;    
 }
 .post-img img{
-    width: 190px;
+    height: 142px;
 }
 .post-img a{
     display: block;
@@ -1283,6 +1294,7 @@ td.roster-p-name{
     border-bottom: 1px solid #fff;
     text-align: center;
     margin: 0 18px;
+    background: #fff url(../images/loading.gif) no-repeat center;
 }
 .partners-item:last-child{
     border-bottom: 1px solid #fff;
@@ -1334,23 +1346,34 @@ td.roster-p-name{
 /*end aside navigation*/
 
 /*aside news*/
-.news-widget{}
-.news-widget .widgettitle{}
-.aside-news-list{}
-.aside-news-item{}
-.aside-news-img{}
-.aside-news-img img{
-	width: px;
-	height: px
+.aside-news-list{
+    padding: 10px;
+    padding-bottom: 0;
 }
-.aside-news-content{}
-.aside-news-title{}
-.aside-news-title a{}
-.aside-news-title a:hover{}
-.aside-news-data{}
-.aside-news-text{}
+.aside-news-item{
+    padding-bottom: 10px;
+}
+.aside-news-img:hover{
+    border-color: #298ca3;
+}
+.aside-news-title a{
+    color: #181818;
+}
+.aside-news-title a:hover{
+    color: #298ca3;
+    text-decoration: underline;
+}
 /*end aside news*/
-
+.aside-cat-list{
+    padding-top: 20px;
+}
+.aside-cat-list li{
+    margin: 0 0 10px 5px;
+    padding-left: 20px;
+    background: url(../images/bullets.png) no-repeat left;
+    line-height: 17px;
+    font-weight: bold;
+}
 /*   END WIDGET    
 ------------------------------*/
 
@@ -1383,6 +1406,7 @@ td.roster-p-name{
     height: 106px;
     position: relative;
     border: 1px solid #bbb;
+    background: #fff url(../images/loading.gif) no-repeat center;
 }
 .friends-link{
     display: block;
