@@ -200,9 +200,9 @@ html>body .main{
 }
 
 /*Обнуление первого и последнего абзацев*/
-.text p:first-child, .text p:last-child{
+/*.text p:first-child, .text p:last-child{
 	margin: 0;
-}
+}*/
 
 /*Стилизация блока картинки с описанием*/
 .text .wp-caption{
