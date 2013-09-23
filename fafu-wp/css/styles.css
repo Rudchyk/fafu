@@ -1042,6 +1042,8 @@ td.roster-p-name{
 .player-page-info,
 .team-page-info{
     position: relative;
+    height: 250px;
+    background: #0d262d;
 }
 .player-page-info img{
     width: 100%;
@@ -1263,11 +1265,14 @@ td.roster-p-name{
 .team-page-name,
 .team-page-surname{
     font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: uppercase;    
+    text-transform: uppercase;   
+    padding-right: 45px; 
 }
 .team-page-name{
     font-size: 2.5em;
     margin-top: -10px;
+    line-height: 1;
+    padding-bottom: 10px;
 }
 .team-page-surname{
 }

@@ -10,7 +10,7 @@
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<li class="future-game">
 					<div class="future-game-team future-game-team-first">
-						<a href="/<? echo get_post_meta($post->ID, 'home-team', true); ?>/" target="_blank">
+						<a href="/<? echo get_post_meta($post->ID, 'home-team', true); ?>/">
 							<i class="icon team-square-icon  <? echo get_post_meta($post->ID, 'home-team', true); ?>-square-icon"></i>
 							<span class="future-game-team-name"><? echo get_post_meta($post->ID, 'home-team-name', true); ?></span>
 						</a>
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 					<div class="future-game-team future-game-team-last">
-						<a href="/<? echo get_post_meta($post->ID, 'visited-team', true); ?>/" target="_blank">
+						<a href="/<? echo get_post_meta($post->ID, 'visited-team', true); ?>/">
 							<i class="icon team-square-icon  <? echo get_post_meta($post->ID, 'visited-team', true); ?>-square-icon"></i>
 							<span class="future-game-team-name"><? echo get_post_meta($post->ID, 'visited-team-name', true); ?></span>
 						</a>
