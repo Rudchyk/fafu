@@ -14,6 +14,10 @@
 				<div class="text single-text page-text break clearfix">
 					<?php the_content(''); ?>
 				</div>
+				<div class="social-share">
+					<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+					<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="button" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+				</div>
 			</article>
 			<!--end article-->
 			<div class="comments-b block">

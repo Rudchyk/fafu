@@ -1709,5 +1709,8 @@ td.roster-p-name{
     content: '';
     background-position: -2px -24px;
 }
+.google{
+    padding-top: 7px;
+}
 /*   END OTHER STYLES     
 ------------------------------*/
