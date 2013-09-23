@@ -25,6 +25,10 @@
 	  	location.replace("<?php bloginfo('stylesheet_directory'); ?>/ie7/ie7.html");
 	  </script>
 	<![endif]-->
+	<script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+	<script type="text/javascript">
+	  VK.init({apiId: 3889055, onlyWidgets: true});
+	</script>
 	<?php wp_head(); ?>	
 </head>
 <body>

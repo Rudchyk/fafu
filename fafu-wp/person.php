@@ -60,6 +60,10 @@ Single Post Template: person
 		<h2 class="title"><?php _e('Биография', 'kubrick'); ?></h2>
 		<div class="text page-player-text break">
 			<?php the_content(''); ?>
+		</div>
+		<div class="social-share social-share-padding">
+			<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+			<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="button" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
 		</div>	
 		<?php endwhile; ?>
 	</div>

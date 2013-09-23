@@ -1,5 +1,5 @@
 <li class="widget news-widget">
-	<h2 class="widgettitle"><?php _e('Последнии новости', 'kubrick'); ?></h2>
+	<h2 class="widgettitle"><?php _e('Последние новости', 'kubrick'); ?></h2>
 	<ul class="aside-news-list">
 		<?php
 		$args = array( 'numberposts' => 1, 'posts_per_page' => 5, 'category' => "8" );

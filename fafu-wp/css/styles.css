@@ -1122,8 +1122,14 @@ td.roster-p-name{
 .game-page-info{
     position: relative;
     padding: 60px 0 20px;
-    background: url(../images/game-b-bg.png);
+    background: url(../images/game-bg.jpg);
     border-bottom: 5px solid #0393a8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 960px;
+    height: 343px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 .game-page-team{
     width: 355px;
@@ -1134,14 +1140,6 @@ td.roster-p-name{
     position: relative;
     width: 180px;
     height: 180px;    
-}
-.game-page-team-logo-bg{
-    position: absolute;
-    background: url(../images/game-bg.png);
-    width: 180px;
-    height: 180px;
-    top: 0;
-    left: 0;
 }
 .game-page-team-name{
     font-size: 3em;
@@ -1174,19 +1172,20 @@ td.roster-p-name{
 }
 .game-page-championship{
     height: 60px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .game-page-score{
-    padding-top: 11px;
+    padding-top: 23px;
     font-weight: bold;
     font-size: 5em;
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    line-height: 1;
 }
 .game-page-table-b{
     width: 250px;
     margin: auto;
-    padding-top: 28px;
+    padding-top: 30px;
 }
 .game-page-table{
     width: 100%;
@@ -1711,6 +1710,9 @@ td.roster-p-name{
 }
 .google{
     padding-top: 7px;
+}
+.social-share-padding{
+    padding: 0 0 30px 13px;
 }
 /*   END OTHER STYLES     
 ------------------------------*/
