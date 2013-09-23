@@ -88,10 +88,10 @@
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
-					<div class="main-item-data left"><?php the_time('d.m.Y') ?></div>
+					<div class="main-item-data left"><?php the_time('d.m') ?></div>
 					<div class="main-item-content">
 						<div class="main-link-news dib overflow_text">
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 						</div>
 					</div>
 				</li>
@@ -106,10 +106,10 @@
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>				
 				<li class="main-item-news clearfix">
-					<div class="main-item-data left"><?php the_time('d.m.Y') ?></div>
+					<div class="main-item-data left"><?php the_time('d.m') ?></div>
 					<div class="main-item-content">
 						<div class="main-link-news dib overflow_text">
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 						</div>
 					</div>
 				</li>

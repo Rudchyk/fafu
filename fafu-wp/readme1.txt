@@ -51,6 +51,14 @@ championship - Чемпионат
 
 game-day - День матча
 game-score - Счет матча
+home-team-first-quarter - Очки I четверти домашней команды
+home-team-second-quarter - Очки II четверти домашней команды
+home-team-third-quarter - Очки III четверти домашней команды
+home-team-four-quarter - Очки IV четверти домашней коанды
+visited-team-first-quarter - Очки I четверти гостевой команды
+visited-team-second-quarter - Очки II четверти гостевой команды
+visited-team-third-quarter - Очки III четверти гостевой команды
+visited-team-four-quarter - Очки IV четверти гостевой команды
 
 Персона:
 photo - Фото 122*159
@@ -115,6 +123,7 @@ city - Город
 date - Дата основания
 children - Детская команда
 website - Сайт
-team-photo - Фото команды 980*479
+team-photo - Фото команды 980*479 (450*220)
 progress - Достижения
 contacts - Контакты
+team-art - Фотография игры команды

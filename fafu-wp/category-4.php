@@ -65,8 +65,8 @@
 					<td class="roster-cell roster-p-number"><? echo get_post_meta($post->ID, 'number', true); ?></td>
 					<td class="roster-cell roster-p-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 					<td class="roster-cell roster-p-pos"><? echo get_post_meta($post->ID, 'pos', true); ?></td>
-					<td class="roster-cell roster-p-ht"><? echo get_post_meta($post->ID, 'ht', true); ?></td>
-					<td class="roster-cell roster-p-wt"><? echo get_post_meta($post->ID, 'wt', true); ?></td>
+					<td class="roster-cell roster-p-ht"><? echo get_post_meta($post->ID, 'ht', true); ?> см</td>
+					<td class="roster-cell roster-p-wt"><? echo get_post_meta($post->ID, 'wt', true); ?> кг</td>
 					<td class="roster-cell"><span class="roster-p-age"><? echo get_post_meta($post->ID, 'age', true); ?></span> лет</td>
 					<td class="roster-cell"><span class="roster-p-exp"><? echo get_post_meta($post->ID, 'exp', true); ?></span> лет</td>
 					<td class="roster-cell roster-p-team">

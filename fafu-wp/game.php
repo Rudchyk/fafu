@@ -35,6 +35,50 @@ Single Post Template: game
 					</span>
 				</div>
 				<div class="game-page-score"><? echo get_post_meta($post->ID, 'game-score', true); ?></div>
+				<div class="game-page-table-b">
+					<table class="game-page-table">
+						<tr>
+							<th class="game-page-td-name game-page-td-empty"></th>
+							<th class="game-page-td-first">I</th>
+							<th class="game-page-td-second">II</th>
+							<th class="game-page-td-third">III</th>
+							<th class="game-page-td-four">IV</th>
+							<th class="game-page-td-four">OT</th>
+						</tr>
+						<tr>
+							<td class="game-page-td-name">
+								<? echo get_post_meta($post->ID, 'home-team-name', true); ?>								
+							</td>
+							<td class="game-page-td-first"><? echo get_post_meta($post->ID, 'home-team-first-quarter', true); ?></td>
+							<td class="game-page-td-second"><? echo get_post_meta($post->ID, 'home-team-second-quarter', true); ?></td>
+							<td class="game-page-td-third"><? echo get_post_meta($post->ID, 'home-team-third-quarter', true); ?></td>
+							<td class="game-page-td-four"><? echo get_post_meta($post->ID, 'home-team-four-quarter', true); ?></td>
+							<td class="game-page-td-five">
+								<?php 
+									$scor = get_post_meta($post->ID, 'game-score', true);
+								  	$scor = mb_substr($scor,0,2);
+								  	echo $scor;					
+								?>
+							</td>
+						</tr>
+						<tr>
+							<td class="game-page-td-name">
+								<? echo get_post_meta($post->ID, 'visited-team-name', true); ?>							
+							</td>
+							<td class="game-page-td-first"><? echo get_post_meta($post->ID, 'visited-team-first-quarter', true); ?></td>
+							<td class="game-page-td-second"><? echo get_post_meta($post->ID, 'visited-team-second-quarter', true); ?></td>
+							<td class="game-page-td-third"><? echo get_post_meta($post->ID, 'visited-team-third-quarter', true); ?></td>
+							<td class="game-page-td-four"><? echo get_post_meta($post->ID, 'visited-team-four-quarter', true); ?></td>
+							<td class="game-page-td-five">
+								<?php 
+									$scor = get_post_meta($post->ID, 'game-score', true);
+								  	$scor = mb_substr($scor,3,4);
+								  	echo $scor;					
+								?>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 		<h2 class="title"><?php _e('Отчет', 'kubrick'); ?></h2>

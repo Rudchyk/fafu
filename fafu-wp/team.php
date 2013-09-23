@@ -10,51 +10,55 @@ Single Post Template: team
 	<div class="page-team block">
 		<?php while (have_posts()) : the_post(); ?> 
 		<div class="team-page-info">
-			<div class="team-page-box clearfix">
-				<div class="team-page-left left">
-					<div class="team-page-photo left">
-						<?php $postimageurl = get_post_meta($post->ID, 'team', true); ?>
-						<?php if ($postimageurl) {?>
-						<i class="<? echo get_post_meta($post->ID, 'team', true); ?>-big-icon team-big-icon icon"></i>
-						<?php }else {?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noteam.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
-						<?php }?>						
-					</div>
-					<div class="team-page-content">
-						<div class="team-page-name">
-							<?php the_title(); ?>						
-						</div>
-						<div class="team-page-surname">
-							<? echo get_post_meta($post->ID, 'team-name-en', true); ?>	
-						</div>
-						<ul class="team-page-list">
-							<li class="team-page-item">Город: <? echo get_post_meta($post->ID, 'city', true); ?></li>
-							<li class="team-page-item">Дата основания: <? echo get_post_meta($post->ID, 'date', true); ?></li>
-							<li class="team-page-item">Детская команда: <? echo get_post_meta($post->ID, 'children', true); ?></li>
-							<li class="team-page-item">Сайт: <noindex><a href="<? echo get_post_meta($post->ID, 'website', true); ?>" target="_blank" rel="nofollow"><? echo get_post_meta($post->ID, 'website', true); ?></a></noindex></li>
-						</ul>								
-					</div>
-				</div>
-				<div class="team-page-right right">
-					<?php $postimageurl = get_post_meta($post->ID, 'team-photo', true); ?>
+			<?php $postimageurl = get_post_meta($post->ID, 'team-art', true); ?>
+			<?php if ($postimageurl) {?>
+			<img src="<? echo get_post_meta($post->ID, 'team-art', true); ?>" alt="<?php the_title(); ?>">
+			<?php }else {?>
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noperson.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
+			<?php }?>			
+			<div class="team-page-left">
+				<div class="team-page-photo left">
+					<?php $postimageurl = get_post_meta($post->ID, 'team', true); ?>
 					<?php if ($postimageurl) {?>
-					<a href="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" data-lightbox="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" title="<?php the_title(); ?>"><img src="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" alt="<?php the_title(); ?>"></a>
+					<i class="<? echo get_post_meta($post->ID, 'team', true); ?>-big-icon team-big-icon icon"></i>
 					<?php }else {?>
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noteam-photo.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
-					<?php }?>
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noteam.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
+					<?php }?>						
+				</div>
+				<div class="team-page-content">
+					<div class="team-page-name">
+						<?php the_title(); ?>						
+					</div>
+					<div class="team-page-surname">
+						<? echo get_post_meta($post->ID, 'team-name-en', true); ?>	
+					</div>
+					<ul class="team-page-list">
+						<li class="team-page-item">Город: <? echo get_post_meta($post->ID, 'city', true); ?></li>
+						<li class="team-page-item">Дата основания: <? echo get_post_meta($post->ID, 'date', true); ?></li>
+						<li class="team-page-item">Детская команда: <? echo get_post_meta($post->ID, 'children', true); ?></li>
+						<li class="team-page-item">Сайт: <noindex><a href="<? echo get_post_meta($post->ID, 'website', true); ?>" target="_blank" rel="nofollow"><? echo get_post_meta($post->ID, 'website', true); ?></a></noindex></li>
+					</ul>								
 				</div>
 			</div>
 		</div>
 		<h2 class="title"><?php _e('История', 'kubrick'); ?></h2>
-		<div class="text page-team-text break">
+		<div class="text page-team-text break clearfix">
+			<div class="team-page-right right">
+				<?php $postimageurl = get_post_meta($post->ID, 'team-photo', true); ?>
+				<?php if ($postimageurl) {?>
+				<a href="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" data-lightbox="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" title="<?php the_title(); ?>"><img src="<? echo get_post_meta($post->ID, 'team-photo', true); ?>" alt="<?php the_title(); ?>"></a>
+				<?php }else {?>
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/required/noteam-photo.jpg" alt="<?php _e('Нету фото', 'kubrick'); ?>">
+				<?php }?>
+			</div>			
 			<?php the_content(''); ?>
 		</div>
 		<h2 class="title"><?php _e('Достижения', 'kubrick'); ?></h2>
-		<div class="text page-team-text break">
+		<div class="text page-team-text break clearfix">
 			<? echo get_post_meta($post->ID, 'progress', true); ?>
 		</div>	
 		<h2 class="title"><?php _e('Контакты', 'kubrick'); ?></h2>
-		<div class="text page-team-text break">
+		<div class="text page-team-text break clearfix">
 			<? echo get_post_meta($post->ID, 'contacts', true); ?>
 		</div>	
 		<?php endwhile; ?>

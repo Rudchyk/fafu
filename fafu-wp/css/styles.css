@@ -562,12 +562,13 @@
     border: none;
 }
 .main-item-data{
-    width: 75px;
+    width: 40px;
     font-size: .833333333333333em;
     color: #7d7d7d;
+    padding-top: 1px;
 }
 .main-item-content{
-    padding-left: 75px;
+    padding-left: 40px;
 }
 .main-list-more{
     font-size: .833333333333333em;
@@ -1123,7 +1124,7 @@ td.roster-p-name{
     border-bottom: 5px solid #0393a8;
 }
 .game-page-team{
-    width: 450px;
+    width: 355px;
     text-align: center;
 }
 .game-page-team-logo{
@@ -1180,30 +1181,80 @@ td.roster-p-name{
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
+.game-page-table-b{
+    width: 250px;
+    margin: auto;
+    padding-top: 28px;
+}
+.game-page-table{
+    width: 100%;
+    border: none;
+    color: #fff;
+}
+.game-page-table td,
+.game-page-table th{
+    padding: 2px 0;
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.game-page-table td{
+    width: 31px;
+    height: 31px;
+}
+.game-page-table th{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #FFED00;
+}
+.game-page-td-name{
+    width: auto;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+.game-page-table .game-page-td-empty{
+    border-top: none;
+    border-left: none;
+    background: transparent;
+}
+.game-page-td-first{}
+.game-page-td-second{}
+.game-page-td-third{}
+.game-page-td-four{}
+.game-page-td-sum{}
 .team-page-info{
     position: relative;
+    border-bottom: 4px solid #F4E841;
 }
 .team-page-box{
     width: 100%;
     height: 250px;
-    background: #0D262D;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 15px;
 }
 .team-page-left{
-    width: 440px;
+    width: 550px;
+    background: url(../images/team.png);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;   
+    height: 250px; 
+    padding: 32px 0 0 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .team-page-right{
-    width: 450px;
+    width: 458px;
+    display: block;
+    margin: 0 -6px 10px 10px;
 }
 .team-page-right img{
     width: 450px;
     height: 220px;
+    border: 4px solid #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
 }
 .team-page-photo{
     width: 180px;
-    border: 4px solid #F4E841;
 }
 .team-page-content{
     padding-left: 205px;
@@ -1636,6 +1687,22 @@ td.roster-p-name{
 }
 .roster-p-name{
     width: 172px;
+}
+.pdf{
+    padding-left: 23px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    margin: 4px 0;
+}
+.pdf:before{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background-position: -2px -24px;
 }
 /*   END OTHER STYLES     
 ------------------------------*/

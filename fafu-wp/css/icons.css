@@ -3,7 +3,8 @@
 
 .icon,
 .nextpostslink:before,
-.previouspostslink:before{
+.previouspostslink:before,
+.pdf:before{
 	background-image: url(../images/sprite.png);
 	background-repeat: no-repeat;
 }
@@ -120,6 +121,10 @@
 	height: 180px;
 	background-image: url(../images/big-team.jpg);
 	background-repeat: no-repeat;	
+}
+.team-page-photo .team-big-icon{
+	border-radius: 50%;
+	border: 4px solid #F4E841;
 }
 .wolves-big-icon{
 	background-position: -1438px 0;
