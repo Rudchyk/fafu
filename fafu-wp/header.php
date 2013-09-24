@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>"> 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/lightbox.css">
+	<!--favicon-->
+	<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.png">
 	<!--CSS print-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/print.css" media="print">
     <!--[if !IE]><!-->

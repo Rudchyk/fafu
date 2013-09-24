@@ -20,7 +20,9 @@
     font-size: 1.16666666666667em;
     color: #fff;
     line-height: 34px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
+    width: 220px;
+    text-align: left;
 }
 .h-middle{
     height: 216px;
@@ -51,7 +53,7 @@
 .field-search-label{
     font-size: 1.16666666666667em;
     color: #fff;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     margin-right: 7px;
     text-transform: uppercase;
     position: relative;
@@ -111,7 +113,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: 700;
     display: block;
     position: relative;
@@ -189,7 +191,7 @@
     padding-left: 5px;
 }
 .last-game-team{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: 300;
     color: #fff;
     text-align: center;
@@ -214,7 +216,7 @@
     font-size: 2.5em;
 }
 .last-game-data{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     line-height: 1;
 }
 .future-games{
@@ -233,7 +235,7 @@
     color: #181818;
     font-size: 1.5em;
     font-weight: 700;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     padding-left: 15px;
     line-height: 48px;
 }
@@ -300,7 +302,7 @@
     border-radius: 3px;
     background: #0d262d;
     color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: 700;
     padding: 1px 6px;
 }
@@ -314,7 +316,7 @@
 .future-game-box{
     color: #181818;
     display: table-cell;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: 300;
     line-height: 1;
     vertical-align: middle;
@@ -383,7 +385,7 @@
     -moz-box-sizing: border-box;
 }
 .main-carousel-title{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     /*font-weight: 700;*/
     font-size: 1.83333333333333em;
     padding: 5px 0 15px;
@@ -452,7 +454,7 @@
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1.2em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     padding: 10px 0;
     line-height: 1;
     cursor: pointer;
@@ -525,7 +527,7 @@
     height: 205px;
 }
 .news-carousel-title{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-size: 1.25em;
     font-weight: 700;
     text-transform: uppercase;
@@ -689,8 +691,8 @@
 }
 .main-posts-title,
 .aside-news-title{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 300;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
     font-size: 1.33333333333333em;
     color: #181818;
     line-height: 1.2;
@@ -722,7 +724,7 @@
     border: 1px solid #b6b6b6;
     position: relative;
     cursor: pointer; 
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     z-index: 500;   
 }
 .main-player-window a{
@@ -814,7 +816,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-align: left;
 }
 .video-hover{
@@ -858,7 +860,7 @@
 }
 .post-title{
     font-size: 1.5em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: 700;
 }
 .post-title a{
@@ -947,7 +949,7 @@
     padding: 15px 0 20px;
     line-height: 1.2;
     color: #000;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-size: 2em;
     font-weight: 700;    
 }
@@ -995,7 +997,7 @@
 }
 .roster-table th{
     background: #0d262d;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-size: 1.16666666666667em;
     text-transform: uppercase;
     color: #fff;
@@ -1077,7 +1079,7 @@ td.roster-p-name{
 }
 .player-page-name,
 .player-page-surname{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-transform: uppercase;    
     font-size: 1.16666666666667em;
 }
@@ -1100,7 +1102,7 @@ td.roster-p-name{
 .player-page-pos{
     font-weight: bold;
     font-size: 1.5em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-transform: uppercase;
 }
 .player-page-list{
@@ -1143,15 +1145,15 @@ td.roster-p-name{
 }
 .game-page-team-name{
     font-size: 3em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding-top: 10px;
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
 .game-page-team-sity{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-size: 2em;
     line-height: 1;
     color: #fff;
@@ -1204,7 +1206,7 @@ td.roster-p-name{
     height: 31px;
 }
 .game-page-table th{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: bold;
     color: #FFED00;
 }
@@ -1263,7 +1265,7 @@ td.roster-p-name{
 }
 .team-page-name,
 .team-page-surname{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-transform: uppercase;   
     padding-right: 45px; 
 }
@@ -1287,7 +1289,7 @@ td.roster-p-name{
 .team-page-pos{
     font-weight: bold;
     font-size: 1.5em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-transform: uppercase;
 }
 .team-page-list{
@@ -1507,7 +1509,7 @@ td.roster-p-name{
 }
 .f-nav-title{
     color: #0d262d;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     font-size: 1.5em;
     font-weight: 700;
     border-bottom: 1px solid #fff;
