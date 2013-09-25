@@ -782,6 +782,13 @@
     font-size: 1.16em;
     font-weight: bold;
     color: #0d262d;
+    height: 50px;
+}
+.main-player-window-b{
+    height: 50px;
+    width: 122px;
+    display: table-cell;
+    vertical-align: middle;
 }
 .main-video{
     padding-top: 10px;

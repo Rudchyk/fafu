@@ -13,7 +13,7 @@
 				<li class="main-player dib">
 					<div class="main-player-window">
 						<a href="<?php the_permalink(); ?>" class="b">
-							<div class="main-player-status"><? echo get_post_meta($post->ID, 'status', true); ?></div>
+							<div class="main-player-status"><div class="main-player-window-b"><? echo get_post_meta($post->ID, 'status', true); ?></div></div>
 							<div class="main-player-photo">
 								<?php $postimageurl = get_post_meta($post->ID, 'photo', true); ?>
 								<?php if ($postimageurl) {?>

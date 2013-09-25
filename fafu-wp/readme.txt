@@ -133,6 +133,7 @@ team - Команда
 team-name - Имя команды
 city - Город
 status - Статус
+status-national-team - Статус тренера в сборной
 
 Видео:
 video-img - Картинка на видео 314*146

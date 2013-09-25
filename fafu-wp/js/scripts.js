@@ -123,6 +123,9 @@ $(document).ready(function(){
 		};		
 	})
 	
+	$(".roster-table").each(function(i){
+		$(this).find('tr:odd').addClass('roster-light-row');
+	})
 
 }); // Ready
 
@@ -217,7 +220,7 @@ function clock(){
     var currentDateMonth = currentTime.getMonth() + 1;//Получаем месяц
     var currentYear = currentTime.getFullYear();//Получаем год
     //В элемент с id=date выводим текущую дату в красивом формате
-    $('.hallo').text(currentDay + ', ' + currentDate + ' ' + currentMonth + ' ' + currentYear + 'г.' + ', ' + currentHours + ':' + currentMinutes + ':' + currentSeconds);
+    $('.hallo').text(currentDay + ', ' + currentDate + ' ' + currentMonth + ' ' + currentYear + ' г.' + ', ' + currentHours + ':' + currentMinutes + ':' + currentSeconds);
 }
 
 function roster(){
@@ -229,15 +232,18 @@ function roster(){
 			playerYear = playerData.substr(-4),
 			playerAge = currentYear - playerYear;
 
-			$(this).text(playerAge);
+			$(this).html(playerAge+' '+incline(['год', 'год', 'лет'], playerAge));
 	}) 
 	$("span.roster-p-exp").each(function(i){
 		var playerExp = $(this).text(),
 			playerExpYear = playerExp.substr(-4),
 			playerExpAge = currentYear - playerExpYear;
 
-			$(this).text(playerExpAge);
+			$(this).html(playerExpAge+' '+incline(['год', 'год', 'лет'], playerExpAge));
 	}) 
+}
+function incline(words,n){
+   return words[(n%100>4 && n%100<20)?2:[2,0,1,1,1,2][Math.min(n%10,5)]];
 }
 roster();
 
