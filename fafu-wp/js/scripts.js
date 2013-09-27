@@ -232,14 +232,14 @@ function roster(){
 			playerYear = playerData.substr(-4),
 			playerAge = currentYear - playerYear;
 
-			$(this).html(playerAge+' '+incline(['год', 'год', 'лет'], playerAge));
+			$(this).html(playerAge+' '+incline(['год', 'года', 'лет'], playerAge));
 	}) 
 	$("span.roster-p-exp").each(function(i){
 		var playerExp = $(this).text(),
 			playerExpYear = playerExp.substr(-4),
 			playerExpAge = currentYear - playerExpYear;
 
-			$(this).html(playerExpAge+' '+incline(['год', 'год', 'лет'], playerExpAge));
+			$(this).html(playerExpAge+' '+incline(['год', 'года', 'лет'], playerExpAge));
 	}) 
 }
 function incline(words,n){

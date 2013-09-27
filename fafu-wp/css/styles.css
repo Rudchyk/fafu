@@ -242,6 +242,7 @@
 .future-games-slider{
     padding: 0 10px;
     position: relative;
+    overflow: visible!important;
 }
 .future-games-slider .sliderkit-nav{
     width: 850px!important;
@@ -949,6 +950,9 @@
 .single{
     padding: 10px 15px 30px;
 }
+.category-text{
+    padding: 10px 29px 0;
+}
 .cat-title{
     margin-left: -15px;
 }
@@ -1008,7 +1012,7 @@
     font-size: 1.16666666666667em;
     text-transform: uppercase;
     color: #fff;
-    padding: 2px 0;
+    padding: 5px 0 2px;
     border-right: 1px solid #fff;
 }
 .roster-table td{
@@ -1124,9 +1128,6 @@ td.roster-p-name{
 }
 .page-game .title{
     margin-top: 10px;
-}
-.page-game{
-    margin-right: 10px;
 }
 .game-page-info{
     position: relative;

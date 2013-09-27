@@ -5,15 +5,18 @@
 		<?php if (have_posts()) : ?>
 		<div class="main-players block">
 			<h2 class="title"><?php single_cat_title(''); ?></h2>
+			<div class="text category-text break clearfix">
+				<?php echo category_description(); ?>
+			</div>			
 			<ul class="main-players-list tac no-players-list">
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "2" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "2", 'meta_key' => 'sort', 'orderby' => 'meta_value', 'order'=> 'ASC' );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?> 
 				<li class="main-player dib">
 					<div class="main-player-window">
 						<a href="<?php the_permalink(); ?>" class="b">
-							<div class="main-player-status"><div class="main-player-window-b"><? echo get_post_meta($post->ID, 'status', true); ?></div></div>
+							<div class="main-player-status"><div class="main-player-window-b"><span class="none"><? echo get_post_meta($post->ID, 'sort', true); ?></span><? echo get_post_meta($post->ID, 'status', true); ?></div></div>
 							<div class="main-player-photo">
 								<?php $postimageurl = get_post_meta($post->ID, 'photo', true); ?>
 								<?php if ($postimageurl) {?>
