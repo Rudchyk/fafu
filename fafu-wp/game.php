@@ -33,6 +33,8 @@ Single Post Template: game
 			</div>
 			<div class="game-page-score"><? echo get_post_meta($post->ID, 'game-score', true); ?></div>
 			<div class="game-page-table-b">
+				<?php $postimageurl = get_post_meta($post->ID, 'home-team-first-quarter', true); ?>
+				<?php if ($postimageurl) {?>				
 				<table class="game-page-table">
 					<tr>
 						<th class="game-page-td-name game-page-td-empty"></th>
@@ -75,6 +77,8 @@ Single Post Template: game
 						</td>
 					</tr>
 				</table>
+				<?php }else {?>
+				<?php }?>
 			</div>
 		</div>
 	</div>	
