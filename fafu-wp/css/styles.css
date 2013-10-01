@@ -20,9 +20,7 @@
     font-size: 1.16666666666667em;
     color: #fff;
     line-height: 34px;
-    font-family: 'Cuprum', sans-serif;
-    width: 220px;
-    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .h-middle{
     height: 216px;
@@ -1702,14 +1700,16 @@ td.roster-p-name{
 .roster-p-name{
     width: 172px;
 }
-.pdf{
+.pdf,
+.doc{
     padding-left: 23px;
     position: relative;
     display: inline-block;
     line-height: 16px;
     margin: 4px 0;
 }
-.pdf:before{
+.pdf:before,
+.doc:before{
     width: 16px;
     height: 16px;
     position: absolute;
@@ -1717,6 +1717,9 @@ td.roster-p-name{
     top: 0;
     content: '';
     background-position: -2px -24px;
+}
+.doc:before{
+    background-position: -18px -24px;
 }
 .google{
     padding-top: 7px;

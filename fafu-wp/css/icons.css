@@ -4,7 +4,8 @@
 .icon,
 .nextpostslink:before,
 .previouspostslink:before,
-.pdf:before{
+.pdf:before,
+.doc:before{
 	background-image: url(../images/sprite.png);
 	background-repeat: no-repeat;
 }
@@ -116,6 +117,12 @@
 .tauris-small-icon{
 	background-position: -156px 0;
 }
+.vikings-small-icon{
+	background-position: -390px 0;
+}
+.bisons-small-icon{
+	background-position: -416px 0;
+}
 .team-big-icon{
 	width: 180px;
 	height: 180px;
@@ -172,6 +179,15 @@
 .tauris-big-icon{
 	background-position: -718px 0;
 }
+.zubrs-big-icon{
+	background-position: -2700px 0;
+}
+.vikings-big-icon{
+	background-position: -2880px 0;
+}
+.bisons-big-icon{
+	background-position: -3060px 0;
+}
 .team-square-icon{
 	width: 60px;
 	height: 29px;
@@ -222,6 +238,15 @@
 }
 .tauris-square-icon{
 	background-position: 0 0;
+}
+.zubrs-square-icon{
+	background-position: -900px 0;
+}
+.vikings-square-icon{
+	background-position: -1020px 0;
+}
+.bisons-square-icon{
+	background-position: -960px 0;
 }
 .championship-big-icon{
 	height: 60px;

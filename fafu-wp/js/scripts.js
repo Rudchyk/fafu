@@ -11,6 +11,14 @@ $(document).ready(function(){
            $(this).parent().removeClass('external');
         }   
     });
+
+	$('.text a[href $=".pdf"]').attr({
+        target: "_blank"
+    }).addClass('pdf');   	
+
+    $('.text a[href $=".doc"]').attr({
+        target: "_blank"
+    }).addClass('doc');    
 	
 	$("input[placeholder], textarea[placeholder]").textPlaceholder();
 

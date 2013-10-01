@@ -59,6 +59,14 @@
 		<noindex><a href="http://sportfort.ru/Tavri" target="_blank" rel="nofollow"><i class="icon team-small-icon tauris-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Тавры (Симферополь)', 'kubrick'); ?></span>
 	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<i class="icon team-small-icon vikings-small-icon"></i>
+		<span class="fixed-tooltip"><?php _e('Викинги (Николаев)', 'kubrick'); ?></span>
+	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<i class="icon team-small-icon bisons-small-icon"></i>
+		<span class="fixed-tooltip"><?php _e('"Бизоны (Кировоград)', 'kubrick'); ?></span>
+	</li>
 </ul>
 
 
