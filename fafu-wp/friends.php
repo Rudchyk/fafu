@@ -28,10 +28,6 @@
 						<img src="http://fafu.in.ua/wp-content/uploads/AF_189x106.png" alt="<?php _e('Американский футбол в крови', 'kubrick'); ?>"><noindex><a href="http://vk.com/public_americanfootball" class="friends-link" target="_blank" rel="nofollow"></a></noindex>
 						<span class="fixed-tooltip"><?php _e('Американский футбол в крови', 'kubrick'); ?></span>
 					</li>
-					<li class="friends-item fixed-tooltip-wrapper">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/friends/friends.jpg" alt="<?php _e('друг 7', 'kubrick'); ?>"><noindex><a href="#" class="friends-link" target="_blank" rel="nofollow"></a></noindex>
-						<span class="fixed-tooltip"><?php _e('друг 7', 'kubrick'); ?></span>
-					</li>
 				</ul>
 			</div>
 			<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev">
