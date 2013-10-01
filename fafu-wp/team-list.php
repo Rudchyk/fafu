@@ -65,7 +65,7 @@
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
 		<i class="icon team-small-icon bisons-small-icon"></i>
-		<span class="fixed-tooltip"><?php _e('"Бизоны (Кировоград)', 'kubrick'); ?></span>
+		<span class="fixed-tooltip"><?php _e('Бизоны (Кировоград)', 'kubrick'); ?></span>
 	</li>
 </ul>
 
