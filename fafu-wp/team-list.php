@@ -4,7 +4,7 @@
 		<span class="fixed-tooltip"><?php _e('Винницкие Волки (Винница)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon mustangs-small-icon"></i>
+		<noindex><a href="http://vk.com/open.mustangs" target="_blank" rel="nofollow"><i class="icon team-small-icon mustangs-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Мустанги (Павлоград)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
@@ -16,15 +16,15 @@
 		<span class="fixed-tooltip"><?php _e('Львы (Львов)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon loggers-small-icon"></i>
+		<noindex><a href="http://lesoruby.uz.ua" target="_blank" rel="nofollow"><i class="icon team-small-icon loggers-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Лесорубы (Ужгород)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon monarchs-small-icon"></i>
+		<noindex><a href="http://vk.com/club28333227 " target="_blank" rel="nofollow"><i class="icon team-small-icon monarchs-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Монархи (Ровно)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon atlantes-small-icon"></i>
+		<noindex><a href="http://vk.com/club9979567" target="_blank" rel="nofollow"><i class="icon team-small-icon atlantes-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Атланты (Харьков)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
@@ -52,7 +52,7 @@
 		<span class="fixed-tooltip"><?php _e('Славяне (Киев)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon tanks-small-icon"></i>
+		<noindex><a href="http://vk.com/club7665956" target="_blank" rel="nofollow"><i class="icon team-small-icon tanks-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Танки (Луганск)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
@@ -60,11 +60,11 @@
 		<span class="fixed-tooltip"><?php _e('Тавры (Симферополь)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon vikings-small-icon"></i>
+		<noindex><a href="http://vk.com/nikolaev_vikings" target="_blank" rel="nofollow"><i class="icon team-small-icon vikings-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Викинги (Николаев)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon bisons-small-icon"></i>
+		<noindex><a href="http://vk.com/kirovohrad_bisons" target="_blank" rel="nofollow"><i class="icon team-small-icon bisons-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Бизоны (Кировоград)', 'kubrick'); ?></span>
 	</li>
 </ul>
