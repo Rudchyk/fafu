@@ -28,7 +28,7 @@
 		<span class="fixed-tooltip"><?php _e('Атланты (Харьков)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<i class="icon team-small-icon bandits-small-icon"></i>
+		<noindex><a href="http://www.kievbandits.com/" target="_blank" rel="nofollow"><i class="icon team-small-icon bandits-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Kiev Bandits (Киев)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">

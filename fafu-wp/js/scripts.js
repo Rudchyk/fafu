@@ -12,6 +12,13 @@ $(document).ready(function(){
         }   
     });
 
+    $('.text a[href ^="http:"] img').each(function(i){
+        if($(this).length){             
+           var flexlink = $(this).parent().attr('href');
+           $(this).parent().attr('data-lightbox', flexlink);
+        }   
+    });
+
 	$('.text a[href $=".pdf"]').attr({
         target: "_blank"
     }).addClass('pdf');   	
