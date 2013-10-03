@@ -45,12 +45,113 @@ $(document).ready(function(){
 	    regionsSelectable: true,
 	    regionsSelectableOne: true,
 	    onRegionClick: function(click, code){
+	      if (code == '25') { 
+	        // window.open("http://fafu.in.ua/volynskaya-oblast.htm");
+	        window.location.href = 'http://fafu.in.ua/volynskaya-oblast.htm'; 
+	      }
 	      if (code == '24') { 
-	        window.open("http://stackoverflow.com"); 
-	        // window.location.href = 'http://example.com';
+	        // window.open("http://fafu.in.ua/vinnickaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/vinnickaya-oblast.htm'; 
+	      }
+	      if (code == '26') { 
+	        // window.open("http://fafu.in.ua/zaporozhskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/zaporozhskaya-oblast.htm'; 
+	      }
+	      if (code == '27') { 
+	        // window.open("http://fafu.in.ua/zhitomirskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/zhitomirskaya-oblast.htm'; 
+	      }
+	      if (code == '20') { 
+	        // window.open("http://fafu.in.ua/ar-krym.htm"); 
+	        window.location.href = 'http://fafu.in.ua/ar-krym.htm'; 
+	      }
+	      if (code == '21') { 
+	        // window.open("http://fafu.in.ua/sumskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/sumskaya-oblast.htm'; 
+	      }
+	      if (code == '22') { 
+	        // window.open("http://fafu.in.ua/ternopolskaya-oblast.htm");
+	        window.location.href = 'http://fafu.in.ua/ternopolskaya-oblast.htm';  
 	      }
 	      if (code == '23') { 
-	        window.open("http://stackoverflow1.com"); 
+	        // window.open("http://fafu.in.ua/zakarpatskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/zakarpatskaya-oblast.htm'; 
+	      }
+	      if (code == '1') { 
+	        // window.open("http://fafu.in.ua/cherkasskaya-oblast.htm");
+	        window.location.href = 'http://fafu.in.ua/cherkasskaya-oblast.htm';  
+	      }
+	      if (code == '3') { 
+	        // window.open("http://fafu.in.ua/chernovickaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/chernovickaya-oblast.htm'; 
+	      }
+	      if (code == '2') { 
+	        // window.open("http://fafu.in.ua/chernigovskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/chernigovskaya-oblast.htm'; 
+	      }
+	      if (code == '5') { 
+	        // window.open("http://fafu.in.ua/dnepropetrovskaya-oblast.htm");
+	        window.location.href = 'http://fafu.in.ua/dnepropetrovskaya-oblast.htm';  
+	      }
+	      if (code == '4') { 
+	        // window.open("http://fafu.in.ua/ar-krym.htm"); 
+	        window.location.href = 'http://fafu.in.ua/ar-krym.htm'; 
+	      }
+	      if (code == '7') { 
+	        // window.open("http://fafu.in.ua/ivano-frankovskaya-oblast.htm");
+	        window.location.href = 'http://fafu.in.ua/ivano-frankovskaya-oblast.htm';  
+	      }
+	      if (code == '6') { 
+	        // window.open("http://fafu.in.ua/doneckaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/doneckaya-oblast.htm'; 
+	      }
+	      if (code == '9') { 
+	        // window.open("http://fafu.in.ua/xersonskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/xersonskaya-oblast.htm'; 
+	      }
+	      if (code == '8') { 
+	        // window.open("http://fafu.in.ua/xarkovskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/xarkovskaya-oblast.htm'; 
+	      }
+	      if (code == '11') { 
+	        // window.open("http://fafu.in.ua/kievskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/kievskaya-oblast.htm'; 
+	      }
+	      if (code == '10') { 
+	        // window.open("http://fafu.in.ua/xmelnickaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/xmelnickaya-oblast.htm'; 
+	      }
+	      if (code == '13') { 
+	        // window.open("http://fafu.in.ua/kirovogradskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/kirovogradskaya-oblast.htm'; 
+	      }
+	      if (code == '12') { 
+	        // window.open("http://fafu.in.ua/kievskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/kievskaya-oblast.htm'; 
+	      }
+	      if (code == '15') { 
+	        // window.open("http://fafu.in.ua/luganskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/luganskaya-oblast.htm'; 
+	      }
+	      if (code == '14') { 
+	        // window.open("http://fafu.in.ua/lvovskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/lvovskaya-oblast.htm'; 
+	      }
+	      if (code == '17') { 
+	        // window.open("http://fafu.in.ua/odesskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/odesskaya-oblast.htm'; 
+	      }
+	      if (code == '16') { 
+	        // window.open("http://fafu.in.ua/nikolaevskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/nikolaevskaya-oblast.htm'; 
+	      }
+	      if (code == '19') { 
+	        // window.open("http://fafu.in.ua/rovenskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/rovenskaya-oblast.htm'; 
+	      }
+	      if (code == '18') { 
+	        // window.open("http://fafu.in.ua/poltavskaya-oblast.htm"); 
+	        window.location.href = 'http://fafu.in.ua/poltavskaya-oblast.htm'; 
 	      }
 	    },
 	    regionStyle: {
