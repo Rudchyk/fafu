@@ -6,8 +6,12 @@
 		<!--index-->
 		<div class="b-posts block">
 			<h2 class="title cat-title"><?php _e('Результаты поиска', 'kubrick'); ?></h2>
-			<?php while (have_posts()) : the_post(); ?> 
-			<?php include (TEMPLATEPATH . '/post.php'); ?>
+			<?php while (have_posts()) : the_post(); ?>
+				<?php if(in_category(4) || in_category(2) || in_category(56) || in_category(3) || in_category(52) || in_category(58) || in_category(57)){ ?>
+				<?php include (TEMPLATEPATH . '/main-player-search.php'); ?>
+				<?php } else{ ?>
+				<?php include (TEMPLATEPATH . '/post.php'); ?>
+				<?php } ?>
 			<?php endwhile; ?>
 			<!--pagenavi wp-->
 			<?php if (function_exists('wp_pagenavi')) {wp_pagenavi();} ?>
