@@ -123,6 +123,9 @@
 .bisons-small-icon{
 	background-position: -416px 0;
 }
+.gepards-small-icon{
+	background-position: -442px 0;
+}
 .team-big-icon{
 	width: 180px;
 	height: 180px;
@@ -188,6 +191,9 @@
 .bisons-big-icon{
 	background-position: -3060px 0;
 }
+.gepards-big-icon{
+	background-position: -3240px 0;
+}
 .team-square-icon{
 	width: 60px;
 	height: 29px;
@@ -247,6 +253,9 @@
 }
 .bisons-square-icon{
 	background-position: -960px 0;
+}
+.gepards-square-icon{
+	background-position: -1080px 0;
 }
 .championship-big-icon{
 	height: 60px;

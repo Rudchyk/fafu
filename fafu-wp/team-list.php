@@ -67,6 +67,10 @@
 		<noindex><a href="http://vk.com/kirovohrad_bisons" target="_blank" rel="nofollow"><i class="icon team-small-icon bisons-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Бизоны (Кировоград)', 'kubrick'); ?></span>
 	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<noindex><a href="http://vk.com/afkcheetahs" target="_blank" rel="nofollow"><i class="icon team-small-icon gepards-small-icon"></i></a></noindex>
+		<span class="fixed-tooltip"><?php _e('Гепарды (Южный)', 'kubrick'); ?></span>
+	</li>
 </ul>
 
 
