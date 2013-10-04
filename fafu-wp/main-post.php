@@ -1,5 +1,5 @@
 <li class="main-post">
-	<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
+	<a href="<?php the_permalink(); ?>" class="clearfix main-post-link" title="<?php the_title(); ?>">
 		<div class="main-posts-img left">
 			<div class="main-posts-img-window">
 				<?php
@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="main-posts-content">
-			<h2 class="main-posts-title"><?php the_title(); ?></h2>
+			<h2 class="main-posts-title"><?php short_title(50); ?></h2>
 			<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
 		</div>
 	</a>

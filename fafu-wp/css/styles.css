@@ -255,6 +255,11 @@
     cursor: pointer;
     text-align: center;
 }
+.future-games-slider .sliderkit-btn-disable,
+.future-games-slider .sliderkit-btn-disable:hover{
+    cursor: default;
+    background: #6f6f6f!important;
+}
 .future-games-slider .sliderkit-btn:hover{
     background: #beb3b3;
 }
@@ -262,6 +267,9 @@
     border: 5px solid transparent;
     display: inline-block;
     margin-top: 20px;
+}
+.future-games-slider .sliderkit-btn-disable a{
+    border: none;
 }
 .future-games-slider .sliderkit-nav-prev{
     left: -10px;
@@ -1636,8 +1644,7 @@ td.roster-p-name{
     cursor: pointer;
 }
 .jvectormap-zoomin,
-.jvectormap-zoomout,
-.sliderkit-btn-disable{
+.jvectormap-zoomout{
     display: none;
 }
 .popup-link{

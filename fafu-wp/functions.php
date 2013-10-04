@@ -98,7 +98,7 @@ remove_action( 'wp_head', 'wp_generator' );
 function short_title($char) {
   $title = get_the_title($post->ID);
   $title = mb_substr($title,0,$char);
-  echo $title;
+  echo $title.'...';
 }
 
 // Добавление поддержки миниатюр в тему
