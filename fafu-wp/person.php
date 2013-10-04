@@ -42,7 +42,12 @@ Single Post Template: person
 						?>	
 						</div>
 						<div class="player-page-desc">
-							<div class="player-page-number dib"><? echo get_post_meta($post->ID, 'number', true); ?></div>
+							<?php if(in_category(57) || in_category(58)){?>
+							<?php }else {?>
+							<div class="player-page-number dib">
+								<? echo get_post_meta($post->ID, 'number', true); ?>
+							</div>
+							<?php }?>								
 							<div class="player-page-pos dib"><? echo get_post_meta($post->ID, 'position', true); ?></div>
 						</div>
 						<ul class="player-page-list">

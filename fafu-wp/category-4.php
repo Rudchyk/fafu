@@ -45,7 +45,7 @@
 		<!--end index-->
 		<!--index-->
 		<div class="b-posts block coach-team">
-			<h2 class="title cat-title"><?php _e('Основной состав', 'kubrick'); ?></h2>
+			<h2 class="title cat-title"><?php _e('Основной состав', 'kubrick'); ?> <a href="/category/osnovnoj-sostav/" class="icon more-icon"></a></h2>
 			<table class="roster-table">
 				<tr class="roster-row">
 					<th class="roster-cell roster-p-number">#</th>
@@ -58,7 +58,7 @@
 					<th class="roster-cell roster-p-team"><?php _e('Команда', 'kubrick'); ?></th>
 				</tr>
 				<?php
-				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "4" );
+				$args = array( 'numberposts' => 1, 'posts_per_page' => 50, 'category' => "56" );
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<tr class="roster-row">
@@ -82,10 +82,9 @@
 		<!--end index-->
 		<!--index-->
 		<div class="b-posts block coach-team">
-			<h2 class="title cat-title"><?php _e('Кандидаты', 'kubrick'); ?></h2>
+			<h2 class="title cat-title"><?php _e('Кандидаты', 'kubrick'); ?> <a href="/category/kandidaty/" class="icon more-icon"></a></h2>
 			<table class="roster-table">
 				<tr class="roster-row">
-					<th class="roster-cell roster-p-number">#</th>
 					<th class="roster-cell roster-p-name"><?php _e('Фамилия Имя', 'kubrick'); ?></th>
 					<th class="roster-cell roster-p-pos"><?php _e('Позиция', 'kubrick'); ?></th>
 					<th class="roster-cell roster-p-ht"><?php _e('Рост', 'kubrick'); ?></th>
@@ -99,7 +98,6 @@
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<tr class="roster-row">
-					<td class="roster-cell roster-p-number"><? echo get_post_meta($post->ID, 'number', true); ?></td>
 					<td class="roster-cell roster-p-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 					<td class="roster-cell roster-p-pos"><? echo get_post_meta($post->ID, 'pos', true); ?></td>
 					<td class="roster-cell roster-p-ht"><? echo get_post_meta($post->ID, 'ht', true); ?> см</td>
@@ -119,10 +117,9 @@
 		<!--end index-->
 		<!--index-->
 		<div class="b-posts block">
-			<h2 class="title cat-title"><?php _e('Резерв', 'kubrick'); ?></h2>
+			<h2 class="title cat-title"><?php _e('Резерв', 'kubrick'); ?> <a href="/category/rezerv/" class="icon more-icon"></a></h2>
 			<table class="roster-table">
 				<tr class="roster-row">
-					<th class="roster-cell roster-p-number">#</th>
 					<th class="roster-cell roster-p-name"><?php _e('Фамилия Имя', 'kubrick'); ?></th>
 					<th class="roster-cell roster-p-pos"><?php _e('Позиция', 'kubrick'); ?></th>
 					<th class="roster-cell roster-p-ht"><?php _e('Рост', 'kubrick'); ?></th>
@@ -136,7 +133,6 @@
 				$lastposts = get_posts( $args );
 				foreach($lastposts as $post) : setup_postdata($post); ?>
 				<tr class="roster-row">
-					<td class="roster-cell roster-p-number"><? echo get_post_meta($post->ID, 'number', true); ?></td>
 					<td class="roster-cell roster-p-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 					<td class="roster-cell roster-p-pos"><? echo get_post_meta($post->ID, 'pos', true); ?></td>
 					<td class="roster-cell roster-p-ht"><? echo get_post_meta($post->ID, 'ht', true); ?> см</td>

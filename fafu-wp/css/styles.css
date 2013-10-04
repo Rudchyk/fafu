@@ -734,6 +734,9 @@
     font-family: 'Cuprum', sans-serif;
     z-index: 500;   
 }
+.main-player-window:hover{
+    background: #eee;
+}
 .main-player-window a{
     text-decoration: none;
 }
