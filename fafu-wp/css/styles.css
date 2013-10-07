@@ -414,10 +414,11 @@
 }
 .main-carousel-more{
     color: #fce10d;
+    text-decoration: none;
 }
 .main-carousel-more:hover{
     color: #fce10d;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .main-tabs-section{
     width: 300px;

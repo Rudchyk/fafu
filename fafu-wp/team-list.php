@@ -71,6 +71,14 @@
 		<noindex><a href="http://vk.com/afkcheetahs" target="_blank" rel="nofollow"><i class="icon team-small-icon gepards-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Гепарды (Южный)', 'kubrick'); ?></span>
 	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<noindex><a href="http://vk.com/americanfootball_ks" target="_blank" rel="nofollow"><i class="icon team-small-icon sharks-small-icon"></i></a></noindex>
+		<span class="fixed-tooltip"><?php _e('Акулы (Херсон)', 'kubrick'); ?></span>
+	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<noindex><a href="http://vk.com/gladiators_km" target="_blank" rel="nofollow"><i class="icon team-small-icon gladiators-small-icon"></i></a></noindex>
+		<span class="fixed-tooltip"><?php _e('Гладиаторы (Хмельницкий)', 'kubrick'); ?></span>
+	</li>
 </ul>
 
 

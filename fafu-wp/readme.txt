@@ -62,6 +62,11 @@ home-team - Домашняя команда
 	tanks - Танки
 	tauris - Тавры
 	zubrs - Минские зубры
+	vikings - Викинги
+	bisons - Бизоны
+	gepards - Гепарды
+	sharks - Акулы
+	gladiators - Гладиаторы
 
 home-team-name - Имя домашней команды
 home-team-city - Город домашней команды
@@ -83,6 +88,11 @@ visited-team - Гостевая команда
 	tanks - Танки
 	tauris - Тавры
 	zubrs - Минские зубры
+	vikings - Викинги
+	bisons - Бизоны
+	gepards - Гепарды
+	sharks - Акулы
+	gladiators - Гладиаторы
 
 visited-team-name - Имя гостевой команды
 visited-team-city - Город гостевой команды
@@ -133,6 +143,11 @@ team - Команда
 	tanks - Танки
 	tauris - Тавры
 	zubrs - Минские зубры
+	vikings - Викинги
+	bisons - Бизоны
+	gepards - Гепарды
+	sharks - Акулы
+	gladiators - Гладиаторы
 team-name - Имя команды
 city - Город
 status - Статус
@@ -168,6 +183,11 @@ team - Команда
 	tanks - Танки
 	tauris - Тавры
 	zubrs - Минские зубры
+	vikings - Викинги
+	bisons - Бизоны
+	gepards - Гепарды
+	sharks - Акулы
+	gladiators - Гладиаторы
 team-name-en - Англ. название
 city - Город
 date - Дата основания

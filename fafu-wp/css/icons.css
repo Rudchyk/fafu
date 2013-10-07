@@ -126,6 +126,12 @@
 .gepards-small-icon{
 	background-position: -442px 0;
 }
+.sharks-small-icon{
+	background-position: -468px 0;
+}
+.gladiators-small-icon{
+	background-position: -494px 0;
+}
 .team-big-icon{
 	width: 180px;
 	height: 180px;
@@ -194,6 +200,12 @@
 .gepards-big-icon{
 	background-position: -3240px 0;
 }
+.sharks-big-icon{
+	background-position: -3420px 0;
+}
+.gladiators-big-icon{
+	background-position: -3600px 0;
+}
 .team-square-icon{
 	width: 60px;
 	height: 29px;
@@ -256,6 +268,12 @@
 }
 .gepards-square-icon{
 	background-position: -1080px 0;
+}
+.sharks-square-icon{
+	background-position: -1140px 0;
+}
+.gladiators-square-icon{
+	background-position: -1200px 0;
 }
 .championship-big-icon{
 	height: 60px;
