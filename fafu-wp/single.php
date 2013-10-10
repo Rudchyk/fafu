@@ -29,20 +29,12 @@
 					</script>
 				</div>
 			</div>
-			<div class="comments-b block">
+			<!-- <div class="comments-b block">
 				<h2 class="title"><span class="small-title-text"><?php _e('Комментарии', 'kubrick'); ?></span> <?php _e('Facebook', 'kubrick'); ?></h2>
 				<div class="comments-box">
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-					<div class="fb-comments" data-href="http://fafu.in.ua" data-width="640"></div>
+					<div class="fb-comments" data-href="http://fafu.in.ua/" data-colorscheme="light" data-numposts="5" data-width="640"></div>
 				</div>
-			</div>
+			</div> -->
 			<?php endwhile; ?>
 		</div>
 		<!--end single & page-->

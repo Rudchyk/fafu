@@ -18,6 +18,11 @@ $(document).ready(function(){
            $(this).parent().attr('data-lightbox', flexlink);
         }   
     });
+    $('.ngg-gallery-thumbnail img').each(function(i){
+        if($(this).length){             
+           $(this).parent().removeAttr('data-lightbox');
+        }   
+    });
 
 	$('.text a[href $=".pdf"]').attr({
         target: "_blank"
