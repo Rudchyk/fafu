@@ -90,9 +90,6 @@
 .monarchs-small-icon{
 	background-position: -208px 0;
 }
-.atlantes-small-icon:hover{
-	background-position: 0 0;
-}
 .bandits-small-icon{
 	background-position: -104px 0;
 }
@@ -161,7 +158,7 @@
 .monarchs-big-icon{
 	background-position: -1978px 0;
 }
-.atlantes-big-icon:hover{
+.atlantes-big-icon{
 	background-position: -1078px 0;
 }
 .bandits-big-icon{
