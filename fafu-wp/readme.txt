@@ -67,6 +67,7 @@ home-team - Домашняя команда
 	gepards - Гепарды
 	sharks - Акулы
 	gladiators - Гладиаторы
+	bears - Мелитопольские Медведи
 
 home-team-name - Имя домашней команды
 home-team-city - Город домашней команды
@@ -93,6 +94,7 @@ visited-team - Гостевая команда
 	gepards - Гепарды
 	sharks - Акулы
 	gladiators - Гладиаторы
+	bears - Мелитопольские Медведи
 
 visited-team-name - Имя гостевой команды
 visited-team-city - Город гостевой команды
@@ -148,6 +150,7 @@ team - Команда
 	gepards - Гепарды
 	sharks - Акулы
 	gladiators - Гладиаторы
+	bears - Мелитопольские Медведи
 team-name - Имя команды
 city - Город
 status - Статус
@@ -188,6 +191,7 @@ team - Команда
 	gepards - Гепарды
 	sharks - Акулы
 	gladiators - Гладиаторы
+	bears - Мелитопольские Медведи
 team-name-en - Англ. название
 city - Город
 date - Дата основания

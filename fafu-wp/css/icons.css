@@ -129,6 +129,9 @@
 .gladiators-small-icon{
 	background-position: -494px 0;
 }
+.bears-small-icon{
+	background-position: -520px 0;
+}
 .team-big-icon{
 	width: 180px;
 	height: 180px;
@@ -203,6 +206,9 @@
 .gladiators-big-icon{
 	background-position: -3600px 0;
 }
+.bears-big-icon{
+	background-position: -3780px 0;
+}
 .team-square-icon{
 	width: 60px;
 	height: 29px;
@@ -271,6 +277,9 @@
 }
 .gladiators-square-icon{
 	background-position: -1200px 0;
+}
+.bears-square-icon{
+	background-position: -1260px 0;
 }
 .championship-big-icon{
 	height: 60px;

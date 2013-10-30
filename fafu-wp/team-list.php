@@ -79,6 +79,10 @@
 		<noindex><a href="http://vk.com/gladiators_km" target="_blank" rel="nofollow"><i class="icon team-small-icon gladiators-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Гладиаторы (Хмельницкий)', 'kubrick'); ?></span>
 	</li>
+	<li class="team-item dib fixed-tooltip-wrapper">
+		<noindex><a href="http://vk.com/bears_mspu" target="_blank" rel="nofollow"><i class="icon team-small-icon bears-small-icon"></i></a></noindex>
+		<span class="fixed-tooltip"><?php _e('Медведи (Мелитополь)', 'kubrick'); ?></span>
+	</li>
 </ul>
 
 
