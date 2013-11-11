@@ -1,4 +1,4 @@
-<div class="future-games clearfix">
+<div class="future-games clearfix <?php echo get_option('display'); ?>">
 <div class="future-games-title left"><?php _e('Ожидайте', 'kubrick'); ?>:</div>
 <div class="future-games-slider sliderkit carousel right">
 	<div class="sliderkit-nav">
