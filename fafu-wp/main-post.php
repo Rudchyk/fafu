@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="main-posts-content">
-			<h2 class="main-posts-title"><?php short_title(50); ?></h2>
+			<h2 class="main-posts-title" title="<?php the_title(); ?>"><?php short_title(40); ?></h2>
 			<div class="main-posts-data"><?php the_time('d.m.Y') ?></div>
 		</div>
 	</a>

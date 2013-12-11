@@ -1,16 +1,6 @@
 $(document).ready(function(){
 
-	$('.text a[href ^="http:"], .text a[href ^="https:"]').attr({
-        target: "_blank"
-    }).addClass('external');
-
-    $('.text a[href ^="http://fafu.in.ua/"], .text a[href ^="https://fafu.in.ua/"]').removeClass('external');
-
-    $('.text a[href ^="http:"] img, .text a[href ^="https:"] img, .text a[href ^="http:"] span, .text a[href ^="https:"] span, .text a[href ^="http:"] div, .text a[href ^="https:"] div').each(function(i){
-        if($(this).length){             
-           $(this).parent().removeClass('external');
-        }   
-    });
+	externalLinks(".text", "http://fafu.in.ua");
 
     $('.text a[href ^="http:"] img').each(function(i){
         if($(this).length){             
@@ -22,15 +12,7 @@ $(document).ready(function(){
         if($(this).length){             
            $(this).parent().removeAttr('data-lightbox');
         }   
-    });
-
-	$('.text a[href $=".pdf"]').attr({
-        target: "_blank"
-    }).addClass('pdf');   	
-
-    $('.text a[href $=".doc"]').attr({
-        target: "_blank"
-    }).addClass('doc');    
+    }); 
 	
 	$("input[placeholder], textarea[placeholder]").textPlaceholder();
 
@@ -291,6 +273,43 @@ $(window).load(function(){
 	});     
 
 });
+
+function externalLinks(div, site){
+		exSettings = {
+		exLink : $(div).find('a'),
+		exTarget : "_blank",
+		exClass : "external",
+		docClass : "doc",
+		pdfClass : "pdf",
+		exSite : site,
+		exArrEl : ['img', 'span', 'em'],
+		exArrLinks : ['[href ^="http:"]', '[href ^="https:"]'],
+		docArrLinks: ['[href $=".pdf"]', '[href $=".doc"]']   
+	}
+	var exLinkSite = '[href ^="'+exSettings.exSite+'/"]',
+	  exLinkHttpSite = exSettings.exLink.filter(exLinkSite);
+	for (var htlink = 0, htlinkLength = exSettings.exArrLinks.length; htlink < htlinkLength; htlink++) {
+	  var exHttp = exSettings.exLink.filter(exSettings.exArrLinks[htlink]);
+	  exHttp
+	  .attr('target', exSettings.exTarget)
+	  .addClass(exSettings.exClass)
+	  .each(function(){
+	       for (var i = 0, exArrElLength = exSettings.exArrEl.length; i < exArrElLength; i++) {
+	            if($(this).find(exSettings.exArrEl[i]).length){            
+	                 $(this).removeClass(exSettings.exClass);
+	           };              
+	       }
+	  });    
+	};
+
+    exLinkHttpSite.removeClass(exSettings.exClass);
+    var docHttp = exSettings.exLink.filter(exSettings.docArrLinks[1]);
+		pdfHttp = exSettings.exLink.filter(exSettings.docArrLinks[0]);
+
+	docHttp.addClass(exSettings.docClass);
+	pdfHttp.addClass(exSettings.pdfClass);
+}
+
 
 // Placeholder for IE8/9
 jQuery.fn.textPlaceholder = function () {

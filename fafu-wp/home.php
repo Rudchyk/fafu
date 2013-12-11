@@ -13,7 +13,7 @@
 				<div class="tabs-box visible">
 					<ul class="main-posts-list">
 						<?php
-						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "8" );
+						$args = array( 'numberposts' => 1, 'posts_per_page' => 7, 'category' => "8" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
 						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
@@ -24,7 +24,7 @@
 				<div class="tabs-box">
 					<ul class="main-posts-list">
 						<?php
-						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "11" );
+						$args = array( 'numberposts' => 1, 'posts_per_page' => 7, 'category' => "11" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
 						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
@@ -41,7 +41,7 @@
 				<div class="tabs-box visible">
 					<ul class="main-posts-list">
 						<?php
-						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "9" );
+						$args = array( 'numberposts' => 1, 'posts_per_page' => 7, 'category' => "9" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
 						<?php include (TEMPLATEPATH . '/main-post.php'); ?>
@@ -52,7 +52,7 @@
 				<div class="tabs-box <?php echo get_option('display'); ?>">
 					<ul class="main-posts-list">
 						<?php
-						$args = array( 'numberposts' => 1, 'posts_per_page' => 3, 'category' => "10" );
+						$args = array( 'numberposts' => 1, 'posts_per_page' => 7, 'category' => "10" );
 						$lastposts = get_posts( $args );
 						foreach($lastposts as $post) : setup_postdata($post); ?>
 						<?php include (TEMPLATEPATH . '/main-post.php'); ?>

@@ -76,7 +76,7 @@
 		<span class="fixed-tooltip"><?php _e('Акулы (Херсон)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<noindex><a href="http://vk.com/gladiators_km" target="_blank" rel="nofollow"><i class="icon team-small-icon gladiators-small-icon"></i></a></noindex>
+		<noindex><a href="http://gladiators.km.ua" target="_blank" rel="nofollow"><i class="icon team-small-icon gladiators-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Гладиаторы (Хмельницкий)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
