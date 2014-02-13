@@ -68,6 +68,7 @@ home-team - Домашняя команда
 	sharks - Акулы
 	gladiators - Гладиаторы
 	bears - Мелитопольские Медведи
+	hammers -  "Молотобойцы" (Донецк)
 
 home-team-name - Имя домашней команды
 home-team-city - Город домашней команды

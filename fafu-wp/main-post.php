@@ -1,5 +1,5 @@
 <li class="main-post">
-	<a href="<?php the_permalink(); ?>" class="clearfix main-post-link" title="<?php the_title(); ?>">
+	<a href="<?php the_permalink(); ?>" class="clearfix main-post-link">
 		<div class="main-posts-img left">
 			<div class="main-posts-img-window">
 				<?php
