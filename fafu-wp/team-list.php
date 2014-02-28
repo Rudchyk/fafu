@@ -84,8 +84,7 @@
 		<span class="fixed-tooltip"><?php _e('Медведи (Мелитополь)', 'kubrick'); ?></span>
 	</li>
 	<li class="team-item dib fixed-tooltip-wrapper">
-		<!-- <noindex><a href="http://vk.com/bears_mspu" target="_blank" rel="nofollow"><i class="icon team-small-icon bears-small-icon"></i></a></noindex> -->
-		<i class="icon team-small-icon hammers-small-icon"></i>
+		<noindex><a href="http://fafu.in.ua/hammers/" target="_blank" rel="nofollow"><i class="icon team-small-icon hammers-small-icon"></i></a></noindex>
 		<span class="fixed-tooltip"><?php _e('Молотобойцы (Донецк)', 'kubrick'); ?></span>
 	</li>
 </ul>
